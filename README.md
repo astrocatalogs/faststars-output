@@ -1,1 +1,1 @@
-# hypervelocity_output
+# faststars_output
