@@ -1,0 +1,89 @@
+{
+	"CD-62 1346":{
+		"schema":"https://github.com/astrocatalogs/faststars/blob/4818341/SCHEMA.md",
+		"name":"CD-62 1346",
+		"sources":[
+			{
+				"name":"2012A&A...543A..58P",
+				"bibcode":"2012A&A...543A..58P",
+				"reference":"Pereira et al. (2012)",
+				"alias":"1"
+			},
+			{
+				"name":"2007A&A...474..653V",
+				"bibcode":"2007A&A...474..653V",
+				"reference":"van Leeuwen (2007)",
+				"alias":"2"
+			}
+		],
+		"alias":[
+			{
+				"value":"CD-62 1346",
+				"source":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"pHVS",
+				"source":"1"
+			}
+		],
+		"dec":[
+			{
+				"value":"-61:33:44.65",
+				"u_value":"degrees",
+				"source":"2"
+			}
+		],
+		"host":[
+			{
+				"value":"Milky Way",
+				"derived":true,
+				"source":"1"
+			}
+		],
+		"lumdist":[
+			{
+				"value":"1.6",
+				"e_value":"0.5",
+				"u_value":"kpc",
+				"source":"1"
+			}
+		],
+		"propermotiondec":[
+			{
+				"value":"-102.19",
+				"u_value":"mas/yr",
+				"source":"2"
+			}
+		],
+		"propermotionra":[
+			{
+				"value":"-14.97",
+				"u_value":"mas/yr",
+				"source":"2"
+			}
+		],
+		"ra":[
+			{
+				"value":"21:06:02.92",
+				"u_value":"hours",
+				"source":"2"
+			}
+		],
+		"spectraltype":[
+			{
+				"value":"CH/RG",
+				"source":"1"
+			}
+		],
+		"velocity":[
+			{
+				"value":"126.5",
+				"e_value":"0.4",
+				"u_value":"km/s",
+				"source":"1"
+			}
+		]
+	}
+}

@@ -1,0 +1,53 @@
+{
+	"SDSSJ213616.03+745923.91":{
+		"schema":"https://github.com/astrocatalogs/faststars/blob/4818341/SCHEMA.md",
+		"name":"SDSSJ213616.03+745923.91",
+		"sources":[
+			{
+				"name":"2015AJ....150...77V",
+				"bibcode":"2015AJ....150...77V",
+				"reference":"Vickers, Smith, & Grebel (2015)",
+				"alias":"1"
+			}
+		],
+		"alias":[
+			{
+				"value":"SDSSJ213616.03+745923.91",
+				"source":"1"
+			}
+		],
+		"claimedtype":[
+			{
+				"value":"pHVS",
+				"source":"1"
+			}
+		],
+		"dec":[
+			{
+				"value":"+74:59:23.91",
+				"u_value":"degrees",
+				"source":"1"
+			}
+		],
+		"host":[
+			{
+				"value":"Milky Way",
+				"derived":true,
+				"source":"1"
+			}
+		],
+		"ra":[
+			{
+				"value":"21:36:16.03",
+				"u_value":"hours",
+				"source":"1"
+			}
+		],
+		"spectraltype":[
+			{
+				"value":"F/G/K/M",
+				"source":"1"
+			}
+		]
+	}
+}
