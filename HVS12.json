@@ -22,9 +22,39 @@
 				"alias":"3"
 			},
 			{
-				"name":"2009ApJ...690.1369B",
-				"bibcode":"2009ApJ...690.1369B",
+				"name":"2009ApJ...690.1639B",
+				"bibcode":"2009ApJ...690.1639B",
+				"reference":"Brown, Geller, & Kenyon (2009)",
 				"alias":"4"
+			},
+			{
+				"bibcode":"2015ApJS..219...12A",
+				"alias":"5"
+			},
+			{
+				"name":"The PPMXL Catalog",
+				"bibcode":"2010AJ....139.2440R",
+				"secondary":true,
+				"url":"https://irsa.ipac.caltech.edu/Missions/ppmxl.html",
+				"alias":"6"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"7"
+			},
+			{
+				"bibcode":"2018arXiv180103555G",
+				"alias":"8"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"9"
 			}
 		],
 		"alias":[
@@ -42,49 +72,67 @@
 			},
 			{
 				"value":"SDSSJ105009.60+031550.7",
-				"source":"4"
+				"source":"4,7"
+			},
+			{
+				"value":"USNO-B1.0 0932-00228004",
+				"source":"7"
+			},
+			{
+				"value":"SDSSJ105009.59+031550.6",
+				"source":"7"
+			},
+			{
+				"value":"HV 12",
+				"source":"7"
 			}
 		],
-		"claimedtype":[
+		"boundprobability":[
 			{
-				"value":"HVS",
-				"source":"2,3,4"
+				"value":"0.0618146",
+				"derived":true,
+				"e_lower_value":"0.000979481688467343",
+				"e_upper_value":"0.0009892438290546104",
+				"source":"9"
 			}
 		],
 		"dec":[
 			{
-				"value":"+03:15:48.1147",
-				"u_value":"degrees",
-				"source":"3,4"
-			},
-			{
 				"value":"+03:15:50.67",
 				"u_value":"degrees",
-				"source":"2"
+				"source":"2,3"
+			},
+			{
+				"value":"+03:15:50.7",
+				"u_value":"degrees",
+				"source":"4"
 			}
 		],
-		"host":[
+		"discoverdate":[
 			{
-				"value":"Milky Way",
+				"value":"2009",
+				"source":"4"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Warren R. Brown, Margaret J. Geller, Scott J. Kenyon",
+				"source":"3,4"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.040305",
 				"derived":true,
-				"source":"1"
+				"source":"8"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"79.6388",
-				"u_value":"kpc",
-				"source":"3"
-			},
-			{
-				"value":"67.5704",
-				"u_value":"kpc",
-				"source":"4"
-			},
-			{
 				"value":"66.8925",
-				"e_lower_value":"8.070295087",
-				"e_upper_value":"8.05514181782",
+				"derived":true,
+				"e_lower_value":"8.070295086998847",
+				"e_upper_value":"8.055141817824747",
 				"u_value":"kpc",
 				"source":"2"
 			}
@@ -107,19 +155,29 @@
 		],
 		"ra":[
 			{
-				"value":"10:50:08.3037",
-				"u_value":"hours",
-				"source":"3,4"
-			},
-			{
 				"value":"10:50:09.59",
 				"u_value":"hours",
-				"source":"2"
+				"source":"2,3"
+			},
+			{
+				"value":"10:50:09.6",
+				"u_value":"hours",
+				"source":"4"
 			}
 		],
 		"spectraltype":[
 			{
-				"value":"A/BHB",
+				"value":"A",
+				"source":"4"
+			}
+		],
+		"stellarclass":[
+			{
+				"value":"d",
+				"source":"4"
+			},
+			{
+				"value":"bhb",
 				"source":"4"
 			}
 		],
@@ -129,6 +187,75 @@
 				"e_value":"6.6",
 				"u_value":"km/s",
 				"source":"2"
+			},
+			{
+				"value":"394.728",
+				"derived":true,
+				"e_value":"45.629",
+				"kind":[
+					"galactocentric",
+					"escape"
+				],
+				"u_value":"km/s",
+				"source":"9"
+			},
+			{
+				"value":"528.368",
+				"derived":true,
+				"e_value":"87.1197",
+				"kind":[
+					"galactocentric",
+					"total"
+				],
+				"u_value":"km/s",
+				"source":"9"
+			}
+		],
+		"photometry":[
+			{
+				"time":"51669",
+				"band":"u",
+				"e_magnitude":"0.0749131",
+				"magnitude":"20.70798",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"5"
+			},
+			{
+				"time":"51669",
+				"band":"g",
+				"e_magnitude":"0.01620405",
+				"magnitude":"19.78116",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"5"
+			},
+			{
+				"time":"51669",
+				"band":"r",
+				"e_magnitude":"0.02416315",
+				"magnitude":"20.02291",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"5"
+			},
+			{
+				"time":"51669",
+				"band":"i",
+				"e_magnitude":"0.04846227",
+				"magnitude":"20.2803",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"5"
+			},
+			{
+				"time":"51669",
+				"band":"z",
+				"e_magnitude":"0.1444843",
+				"magnitude":"20.12706",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"5"
 			}
 		]
 	}

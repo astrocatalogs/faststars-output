@@ -8,6 +8,17 @@
 				"bibcode":"2014ApJ...789L...2Z",
 				"reference":"Zhong et al. (2014)",
 				"alias":"1"
+			},
+			{
+				"bibcode":"2018arXiv180103555G",
+				"alias":"2"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"3"
 			}
 		],
 		"alias":[
@@ -20,10 +31,13 @@
 				"source":"1"
 			}
 		],
-		"claimedtype":[
+		"boundprobability":[
 			{
-				"value":"pHVS",
-				"source":"1"
+				"value":"0.966284",
+				"derived":true,
+				"e_lower_value":"0.0007429611185664209",
+				"e_upper_value":"0.0007325733597076667",
+				"source":"3"
 			}
 		],
 		"dec":[
@@ -33,11 +47,23 @@
 				"source":"1"
 			}
 		],
-		"host":[
+		"discoverdate":[
 			{
-				"value":"Milky Way",
-				"derived":true,
+				"value":"2014",
 				"source":"1"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Jing Zhong, Li Chen, Chao Liu, Richard de Grijs, Jinliang Hou, Shiyin Shen, Zhengyi Shao, Jing Li, Ali Luo, Jianrong Shi, Haotong Zhang, Ming Yang, Licai Deng, Ge Jin, Yong Zhang, Yonghui Hou, Zhenchao Zhang",
+				"source":"1"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.00796286",
+				"derived":true,
+				"source":"2"
 			}
 		],
 		"lumdist":[
@@ -76,11 +102,39 @@
 				"source":"1"
 			}
 		],
+		"stellarclass":[
+			{
+				"value":"d",
+				"source":"1"
+			}
+		],
 		"velocity":[
 			{
 				"value":"307",
 				"u_value":"km/s",
 				"source":"1"
+			},
+			{
+				"value":"549.176",
+				"derived":true,
+				"e_value":"21.0279",
+				"kind":[
+					"galactocentric",
+					"escape"
+				],
+				"u_value":"km/s",
+				"source":"3"
+			},
+			{
+				"value":"340.974",
+				"derived":true,
+				"e_value":"95.292",
+				"kind":[
+					"galactocentric",
+					"total"
+				],
+				"u_value":"km/s",
+				"source":"3"
 			}
 		]
 	}

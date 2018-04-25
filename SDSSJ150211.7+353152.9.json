@@ -8,18 +8,70 @@
 				"bibcode":"2014ApJ...794..145S",
 				"reference":"Savcheva, West, & Bochanski (2014)",
 				"alias":"1"
+			},
+			{
+				"bibcode":"2015ApJS..219...12A",
+				"alias":"2"
+			},
+			{
+				"name":"The PPMXL Catalog",
+				"bibcode":"2010AJ....139.2440R",
+				"secondary":true,
+				"url":"https://irsa.ipac.caltech.edu/Missions/ppmxl.html",
+				"alias":"3"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"4"
+			},
+			{
+				"bibcode":"2018arXiv180103555G",
+				"alias":"5"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"6"
 			}
 		],
 		"alias":[
 			{
 				"value":"SDSSJ150211.7+353152.9",
 				"source":"1"
+			},
+			{
+				"value":"LSPM J1502+3531",
+				"source":"4"
+			},
+			{
+				"value":"2MASS J15021185+3531539",
+				"source":"4"
+			},
+			{
+				"value":"SDSSJ150211.71+353152.9",
+				"source":"4"
+			},
+			{
+				"value":"SDSSJ150211.71+353152.8",
+				"source":"4"
+			},
+			{
+				"value":"USNO-B1.0 1255-00223152",
+				"source":"4"
 			}
 		],
-		"claimedtype":[
+		"boundprobability":[
 			{
-				"value":"pHVS",
-				"source":"1"
+				"value":"0.925386",
+				"derived":true,
+				"e_lower_value":"0.0010788272667517917",
+				"e_upper_value":"0.0010693502094138996",
+				"source":"6"
 			}
 		],
 		"dec":[
@@ -29,11 +81,23 @@
 				"source":"1"
 			}
 		],
-		"host":[
+		"discoverdate":[
 			{
-				"value":"Milky Way",
-				"derived":true,
+				"value":"2014",
 				"source":"1"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Antonia S. Savcheva, Andrew A. West, John J. Bochanski",
+				"source":"1"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0195855",
+				"derived":true,
+				"source":"5"
 			}
 		],
 		"lumdist":[
@@ -69,7 +133,13 @@
 		],
 		"spectraltype":[
 			{
-				"value":"sdM0",
+				"value":"M0",
+				"source":"1"
+			}
+		],
+		"stellarclass":[
+			{
+				"value":"sd",
 				"source":"1"
 			}
 		],
@@ -78,6 +148,75 @@
 				"value":"-356",
 				"u_value":"km/s",
 				"source":"1"
+			},
+			{
+				"value":"552.415",
+				"derived":true,
+				"e_value":"21.2607",
+				"kind":[
+					"galactocentric",
+					"escape"
+				],
+				"u_value":"km/s",
+				"source":"6"
+			},
+			{
+				"value":"361.124",
+				"derived":true,
+				"e_value":"126.385",
+				"kind":[
+					"galactocentric",
+					"total"
+				],
+				"u_value":"km/s",
+				"source":"6"
+			}
+		],
+		"photometry":[
+			{
+				"time":"52758",
+				"band":"u",
+				"e_magnitude":"0.1710343",
+				"magnitude":"22.53",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"52758",
+				"band":"g",
+				"e_magnitude":"0.01388196",
+				"magnitude":"19.90134",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"52758",
+				"band":"r",
+				"e_magnitude":"0.007319012",
+				"magnitude":"18.29009",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"52758",
+				"band":"i",
+				"e_magnitude":"0.006891923",
+				"magnitude":"17.60272",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"52758",
+				"band":"z",
+				"e_magnitude":"0.01103611",
+				"magnitude":"17.21176",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
 			}
 		]
 	}

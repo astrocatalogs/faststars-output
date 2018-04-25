@@ -14,6 +14,32 @@
 				"bibcode":"2014ApJ...780....7P",
 				"reference":"Palladino et al. (2014)",
 				"alias":"2"
+			},
+			{
+				"bibcode":"2015ApJS..219...12A",
+				"alias":"3"
+			},
+			{
+				"bibcode":"2016A&A...595A...2G",
+				"alias":"4"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"5"
+			},
+			{
+				"bibcode":"2018arXiv180103555G",
+				"alias":"6"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"7"
 			}
 		],
 		"alias":[
@@ -24,16 +50,31 @@
 			{
 				"value":"SDSSJ113102.87+665751.1",
 				"source":"2"
-			}
-		],
-		"claimedtype":[
-			{
-				"value":"nHVS",
-				"source":"1"
 			},
 			{
-				"value":"pHVS",
-				"source":"2"
+				"value":"HVS 4",
+				"source":"5"
+			},
+			{
+				"value":"2MASS J11310286+6657510",
+				"source":"5"
+			},
+			{
+				"value":"SDSSJ113102.89+665751.2",
+				"source":"5"
+			},
+			{
+				"value":"SDSSJ113102.89+665751.1",
+				"source":"5"
+			}
+		],
+		"boundprobability":[
+			{
+				"value":"0.999977",
+				"derived":true,
+				"e_lower_value":"2.2519578492752323e-05",
+				"e_upper_value":"1.2987903849959181e-05",
+				"source":"7"
 			}
 		],
 		"dec":[
@@ -41,13 +82,32 @@
 				"value":"+66:57:51.1",
 				"u_value":"degrees",
 				"source":"2"
+			},
+			{
+				"value":"+66:57:50.7764",
+				"e_value":"0.129",
+				"u_e_value":"mas",
+				"u_value":"degrees",
+				"source":"4"
 			}
 		],
-		"host":[
+		"discoverdate":[
 			{
-				"value":"Milky Way",
-				"derived":true,
+				"value":"2014",
 				"source":"2"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Lauren E. Palladino, Katharine J. Schlesinger, Kelly Holley-Bockelmann, Carlos Allende Prieto, Timothy C. Beers, Young Sun Lee, Donald P. Schneider",
+				"source":"2"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.015421",
+				"derived":true,
+				"source":"6"
 			}
 		],
 		"lumdist":[
@@ -78,11 +138,28 @@
 				"value":"11:31:02.87",
 				"u_value":"hours",
 				"source":"2"
+			},
+			{
+				"value":"11:31:02.8343",
+				"e_value":"0.116",
+				"u_e_value":"mas",
+				"u_value":"hours",
+				"source":"4"
 			}
 		],
 		"spectraltype":[
 			{
-				"value":"G/K",
+				"value":"G",
+				"source":"2"
+			},
+			{
+				"value":"K",
+				"source":"2"
+			}
+		],
+		"stellarclass":[
+			{
+				"value":"d",
 				"source":"2"
 			}
 		],
@@ -91,6 +168,84 @@
 				"value":"-54.9",
 				"u_value":"km/s",
 				"source":"2"
+			},
+			{
+				"value":"545.718",
+				"derived":true,
+				"e_value":"21.1877",
+				"kind":[
+					"galactocentric",
+					"escape"
+				],
+				"u_value":"km/s",
+				"source":"7"
+			},
+			{
+				"value":"132.499",
+				"derived":true,
+				"e_value":"43.2468",
+				"kind":[
+					"galactocentric",
+					"total"
+				],
+				"u_value":"km/s",
+				"source":"7"
+			}
+		],
+		"photometry":[
+			{
+				"time":"51661",
+				"band":"u",
+				"e_magnitude":"0.01532967",
+				"magnitude":"18.39126",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"51661",
+				"band":"g",
+				"e_magnitude":"0.00418788",
+				"magnitude":"16.74018",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"51661",
+				"band":"r",
+				"e_magnitude":"0.004012916",
+				"magnitude":"16.15203",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"51661",
+				"band":"i",
+				"e_magnitude":"0.004221778",
+				"magnitude":"15.91579",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"51661",
+				"band":"z",
+				"e_magnitude":"0.007036181",
+				"magnitude":"15.8116",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"57023",
+				"band":"G",
+				"instrument":"Astrometric",
+				"magnitude":"16.078",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"4"
 			}
 		]
 	}

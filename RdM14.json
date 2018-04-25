@@ -8,6 +8,32 @@
 				"bibcode":"2015ApJ...813...26F",
 				"reference":"Favia, West, & Theissen (2015)",
 				"alias":"1"
+			},
+			{
+				"bibcode":"2015ApJS..219...12A",
+				"alias":"2"
+			},
+			{
+				"bibcode":"2016A&A...595A...2G",
+				"alias":"3"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"4"
+			},
+			{
+				"bibcode":"2018arXiv180103555G",
+				"alias":"5"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"6"
 			}
 		],
 		"alias":[
@@ -17,13 +43,20 @@
 			},
 			{
 				"value":"SDSSJ184314.08+412258.9",
-				"source":"1"
+				"source":"1,4"
+			},
+			{
+				"value":"2MASS J18431411+4122581",
+				"source":"4"
 			}
 		],
-		"claimedtype":[
+		"boundprobability":[
 			{
-				"value":"pBHVS",
-				"source":"1"
+				"value":"0.893487",
+				"derived":true,
+				"e_lower_value":"0.0012653907921679197",
+				"e_upper_value":"0.0012566243058116378",
+				"source":"6"
 			}
 		],
 		"dec":[
@@ -31,20 +64,39 @@
 				"value":"+41:22:58.9",
 				"u_value":"degrees",
 				"source":"1"
+			},
+			{
+				"value":"+41:23:00.0607",
+				"e_value":"0.524",
+				"u_e_value":"mas",
+				"u_value":"degrees",
+				"source":"3"
 			}
 		],
-		"host":[
+		"discoverdate":[
 			{
-				"value":"Milky Way",
-				"derived":true,
+				"value":"2015",
 				"source":"1"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Andrej Favia, Andrew A. West, Christopher A. Theissen",
+				"source":"1"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0446065",
+				"derived":true,
+				"source":"5"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"642",
-				"e_value":"171",
-				"u_value":"pc",
+				"value":"0.642",
+				"e_value":"0.171",
+				"u_value":"kpc",
 				"source":"1"
 			}
 		],
@@ -69,11 +121,24 @@
 				"value":"18:43:14.08",
 				"u_value":"hours",
 				"source":"1"
+			},
+			{
+				"value":"18:43:14.0414",
+				"e_value":"0.217",
+				"u_e_value":"mas",
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"spectraltype":[
 			{
 				"value":"M0",
+				"source":"1"
+			}
+		],
+		"stellarclass":[
+			{
+				"value":"d",
 				"source":"1"
 			}
 		],
@@ -83,6 +148,84 @@
 				"e_value":"6.6",
 				"u_value":"km/s",
 				"source":"1"
+			},
+			{
+				"value":"554.158",
+				"derived":true,
+				"e_value":"21.0616",
+				"kind":[
+					"galactocentric",
+					"escape"
+				],
+				"u_value":"km/s",
+				"source":"6"
+			},
+			{
+				"value":"427.459",
+				"derived":true,
+				"e_value":"100.066",
+				"kind":[
+					"galactocentric",
+					"total"
+				],
+				"u_value":"km/s",
+				"source":"6"
+			}
+		],
+		"photometry":[
+			{
+				"time":"53529",
+				"band":"u",
+				"e_magnitude":"0.05386675",
+				"magnitude":"20.57321",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"53529",
+				"band":"g",
+				"e_magnitude":"0.006270078",
+				"magnitude":"18.0209",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"53529",
+				"band":"r",
+				"e_magnitude":"0.005049991",
+				"magnitude":"16.68536",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"53529",
+				"band":"i",
+				"e_magnitude":"0.005115043",
+				"magnitude":"16.10836",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"53529",
+				"band":"z",
+				"e_magnitude":"0.006668152",
+				"magnitude":"15.79474",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"57023",
+				"band":"G",
+				"instrument":"Astrometric",
+				"magnitude":"16.507",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"3"
 			}
 		]
 	}

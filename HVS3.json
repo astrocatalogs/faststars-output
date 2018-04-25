@@ -16,8 +16,9 @@
 				"alias":"2"
 			},
 			{
-				"name":"2009ApJ...690.1369B",
-				"bibcode":"2009ApJ...690.1369B",
+				"name":"2009ApJ...690.1639B",
+				"bibcode":"2009ApJ...690.1639B",
+				"reference":"Brown, Geller, & Kenyon (2009)",
 				"alias":"3"
 			},
 			{
@@ -25,6 +26,31 @@
 				"bibcode":"2005ApJ...634L.181E",
 				"reference":"Edelmann et al. (2005)",
 				"alias":"4"
+			},
+			{
+				"name":"The PPMXL Catalog",
+				"bibcode":"2010AJ....139.2440R",
+				"secondary":true,
+				"url":"https://irsa.ipac.caltech.edu/Missions/ppmxl.html",
+				"alias":"5"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"6"
+			},
+			{
+				"bibcode":"1998ApJ...500..525S",
+				"alias":"7"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"8"
 			}
 		],
 		"alias":[
@@ -39,12 +65,35 @@
 			{
 				"value":"HE0437-5439",
 				"source":"2,3"
+			},
+			{
+				"value":"UCAC3 71-10374",
+				"source":"6"
+			},
+			{
+				"value":"EC 04371-5439",
+				"source":"6"
+			},
+			{
+				"value":"GSC2 S01132011256",
+				"source":"6"
+			},
+			{
+				"value":"HE 0437-5439",
+				"source":"6"
+			},
+			{
+				"value":"HV 3",
+				"source":"6"
 			}
 		],
-		"claimedtype":[
+		"boundprobability":[
 			{
-				"value":"HVS",
-				"source":"2,3,4"
+				"value":"2.2746e-05",
+				"derived":true,
+				"e_lower_value":"1.2987903850043172e-05",
+				"e_upper_value":"2.251957849272341e-05",
+				"source":"8"
 			}
 		],
 		"dec":[
@@ -52,25 +101,36 @@
 				"value":"-54:33:12",
 				"u_value":"degrees",
 				"source":"4"
-			},
-			{
-				"value":"-54:33:15.8611",
-				"u_value":"degrees",
-				"source":"2,3"
 			}
 		],
-		"host":[
+		"discoverdate":[
 			{
-				"value":"Milky Way",
+				"value":"2005",
+				"alias":"1",
+				"source":"4"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"H. Edelmann, R. Napiwotzki, U. Heber, N. Christlieb, D. Reimers",
+				"alias":"1",
+				"source":"4"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.00811505",
 				"derived":true,
-				"source":"1"
+				"upperlimit":true,
+				"source":"7"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"60.6888",
+				"value":"61",
+				"e_value":"10",
 				"u_value":"kpc",
-				"source":"2,3"
+				"source":"1"
 			}
 		],
 		"propermotiondec":[
@@ -94,17 +154,18 @@
 				"value":"04:38:12.8",
 				"u_value":"hours",
 				"source":"4"
-			},
-			{
-				"value":"04:38:13.3006",
-				"u_value":"hours",
-				"source":"2,3"
 			}
 		],
 		"spectraltype":[
 			{
 				"value":"B",
-				"source":"3"
+				"source":"3,4"
+			}
+		],
+		"stellarclass":[
+			{
+				"value":"d",
+				"source":"3,4"
 			}
 		],
 		"velocity":[
@@ -112,7 +173,29 @@
 				"value":"723",
 				"e_value":"3",
 				"u_value":"km/s",
-				"source":"4"
+				"source":"2,4"
+			},
+			{
+				"value":"379.135",
+				"derived":true,
+				"e_value":"20.808",
+				"kind":[
+					"galactocentric",
+					"escape"
+				],
+				"u_value":"km/s",
+				"source":"8"
+			},
+			{
+				"value":"775.024",
+				"derived":true,
+				"e_value":"130.891",
+				"kind":[
+					"galactocentric",
+					"total"
+				],
+				"u_value":"km/s",
+				"source":"8"
 			}
 		]
 	}

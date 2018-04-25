@@ -8,18 +8,94 @@
 				"bibcode":"2015MNRAS.447.2046H",
 				"reference":"Hawkins et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"bibcode":"2016A&A...595A...2G",
+				"alias":"2"
+			},
+			{
+				"name":"The PPMXL Catalog",
+				"bibcode":"2010AJ....139.2440R",
+				"secondary":true,
+				"url":"https://irsa.ipac.caltech.edu/Missions/ppmxl.html",
+				"alias":"3"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"4"
+			},
+			{
+				"bibcode":"2018arXiv180103555G",
+				"alias":"5"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"6"
 			}
 		],
 		"alias":[
 			{
 				"value":"RAVEJ161055.6-112009",
 				"source":"1"
+			},
+			{
+				"value":"UCAC3 158-140747",
+				"source":"4"
+			},
+			{
+				"value":"CMC14 J161055.6-112009",
+				"source":"4"
+			},
+			{
+				"value":"DENIS J161055.6-112008",
+				"source":"4"
+			},
+			{
+				"value":"GSC2.3 S899000317",
+				"source":"4"
+			},
+			{
+				"value":"GSC2 S2213031317",
+				"source":"4"
+			},
+			{
+				"value":"2MASS J16105562-1120091",
+				"source":"4"
+			},
+			{
+				"value":"PPMX J161055.6-112009",
+				"source":"4"
+			},
+			{
+				"value":"RAVE J161055.6-112009",
+				"source":"4"
+			},
+			{
+				"value":"UCAC4 394-061905",
+				"source":"4"
+			},
+			{
+				"value":"USNO-B1.0 0786-00293953",
+				"source":"4"
+			},
+			{
+				"value":"WISE J161055.62-112009.0",
+				"source":"4"
 			}
 		],
-		"claimedtype":[
+		"boundprobability":[
 			{
-				"value":"pHVS",
-				"source":"1"
+				"value":"0.130912",
+				"derived":true,
+				"e_lower_value":"0.0013746711771731035",
+				"e_upper_value":"0.0013828941137459805",
+				"source":"6"
 			}
 		],
 		"dec":[
@@ -27,20 +103,39 @@
 				"value":"-11:20:09",
 				"u_value":"degrees",
 				"source":"1"
+			},
+			{
+				"value":"-11:20:09.2064",
+				"e_value":"0.352",
+				"u_e_value":"mas",
+				"u_value":"degrees",
+				"source":"2"
 			}
 		],
-		"host":[
+		"discoverdate":[
 			{
-				"value":"Milky Way",
-				"derived":true,
+				"value":"2015",
 				"source":"1"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"K. Hawkins, G. Kordopatis, G. Gilmore, T. Masseron, R. F. G. Wyse, G. Ruchti, O. Bienaymé, J. Bland-Hawthorn, C. Boeche, K. Freeman, B. K. Gibson, E. K. Grebel, A. Helmi, A. Kunder, U. Munari, J. F. Navarro, Q. A. Parker, W. A. Reid, R. D. Scholz, G. Seabroke, A. Siebert, M. Steinmetz, F. Watson, T. Zwitter",
+				"source":"1"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.253215",
+				"derived":true,
+				"source":"5"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"4369",
-				"e_value":"1451",
-				"u_value":"pc",
+				"value":"4.369",
+				"e_value":"1.451",
+				"u_value":"kpc",
 				"source":"1"
 			}
 		],
@@ -65,6 +160,19 @@
 				"value":"16:10:55.6",
 				"u_value":"hours",
 				"source":"1"
+			},
+			{
+				"value":"16:10:55.6195",
+				"e_value":"0.472",
+				"u_e_value":"mas",
+				"u_value":"hours",
+				"source":"2"
+			}
+		],
+		"stellarclass":[
+			{
+				"value":"g",
+				"source":"1"
 			}
 		],
 		"velocity":[
@@ -73,6 +181,39 @@
 				"e_value":"1",
 				"u_value":"km/s",
 				"source":"1"
+			},
+			{
+				"value":"618.623",
+				"derived":true,
+				"e_value":"39.8789",
+				"kind":[
+					"galactocentric",
+					"escape"
+				],
+				"u_value":"km/s",
+				"source":"6"
+			},
+			{
+				"value":"828.784",
+				"derived":true,
+				"e_value":"227.335",
+				"kind":[
+					"galactocentric",
+					"total"
+				],
+				"u_value":"km/s",
+				"source":"6"
+			}
+		],
+		"photometry":[
+			{
+				"time":"57023",
+				"band":"G",
+				"instrument":"Astrometric",
+				"magnitude":"12.691",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"2"
 			}
 		]
 	}

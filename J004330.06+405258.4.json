@@ -8,18 +8,58 @@
 				"bibcode":"2015AJ....150..149E",
 				"reference":"Evans & Massey (2015)",
 				"alias":"1"
+			},
+			{
+				"bibcode":"2016A&A...595A...2G",
+				"alias":"2"
+			},
+			{
+				"name":"The PPMXL Catalog",
+				"bibcode":"2010AJ....139.2440R",
+				"secondary":true,
+				"url":"https://irsa.ipac.caltech.edu/Missions/ppmxl.html",
+				"alias":"3"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"4"
+			},
+			{
+				"bibcode":"2018arXiv180103555G",
+				"alias":"5"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"6"
 			}
 		],
 		"alias":[
 			{
 				"value":"J004330.06+405258.4",
-				"source":"1"
+				"source":"1,4"
+			},
+			{
+				"value":"LGGS J004330.06+405258.4",
+				"source":"4"
+			},
+			{
+				"value":"2MASS J00433008+4052581",
+				"source":"4"
 			}
 		],
-		"claimedtype":[
+		"boundprobability":[
 			{
-				"value":"HVS",
-				"source":"1"
+				"value":"2.2746e-05",
+				"derived":true,
+				"e_lower_value":"1.2987903850043172e-05",
+				"e_upper_value":"2.251957849272341e-05",
+				"source":"6"
 			}
 		],
 		"dec":[
@@ -27,6 +67,34 @@
 				"value":"+40:52:58.4",
 				"u_value":"degrees",
 				"source":"1"
+			},
+			{
+				"value":"+40:52:58.085",
+				"e_value":"2.787",
+				"u_e_value":"mas",
+				"u_value":"degrees",
+				"source":"2"
+			}
+		],
+		"discoverdate":[
+			{
+				"value":"2015",
+				"alias":"1",
+				"source":"1"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Kate Anne Evans, Philip Massey",
+				"alias":"1",
+				"source":"1"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.079685",
+				"derived":true,
+				"source":"5"
 			}
 		],
 		"host":[
@@ -42,16 +110,45 @@
 				"source":"1"
 			}
 		],
+		"propermotiondec":[
+			{
+				"value":"-12.1608",
+				"e_value":"4.212",
+				"u_value":"mas/yr",
+				"source":"3"
+			}
+		],
+		"propermotionra":[
+			{
+				"value":"11.5596",
+				"e_value":"4.212",
+				"u_value":"mas/yr",
+				"source":"3"
+			}
+		],
 		"ra":[
 			{
 				"value":"00:43:30.06",
 				"u_value":"hours",
 				"source":"1"
+			},
+			{
+				"value":"00:43:30.0755",
+				"e_value":"10.378",
+				"u_e_value":"mas",
+				"u_value":"hours",
+				"source":"2"
 			}
 		],
 		"spectraltype":[
 			{
-				"value":"M2I",
+				"value":"M2",
+				"source":"1"
+			}
+		],
+		"stellarclass":[
+			{
+				"value":"Sg",
 				"source":"1"
 			}
 		],
@@ -61,6 +158,39 @@
 				"e_value":"1",
 				"u_value":"km/s",
 				"source":"1"
+			},
+			{
+				"value":"169.37",
+				"derived":true,
+				"e_value":"34.679",
+				"kind":[
+					"galactocentric",
+					"escape"
+				],
+				"u_value":"km/s",
+				"source":"6"
+			},
+			{
+				"value":"60798.9",
+				"derived":true,
+				"e_value":"33225.4",
+				"kind":[
+					"galactocentric",
+					"total"
+				],
+				"u_value":"km/s",
+				"source":"6"
+			}
+		],
+		"photometry":[
+			{
+				"time":"57023",
+				"band":"G",
+				"instrument":"Astrometric",
+				"magnitude":"18.289",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"2"
 			}
 		]
 	}

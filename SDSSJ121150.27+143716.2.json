@@ -14,12 +14,46 @@
 				"bibcode":"2011A&A...527A.137T",
 				"reference":"Tillich et al. (2011)",
 				"alias":"2"
+			},
+			{
+				"bibcode":"2015ApJS..219...12A",
+				"alias":"3"
+			},
+			{
+				"bibcode":"2016A&A...595A...2G",
+				"alias":"4"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"5"
+			},
+			{
+				"bibcode":"2018arXiv180103555G",
+				"alias":"6"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"7"
 			}
 		],
 		"alias":[
 			{
 				"value":"SDSSJ121150.27+143716.2",
-				"source":"2"
+				"source":"2,5"
+			},
+			{
+				"value":"SDSSJ121150.27+143716.0",
+				"source":"5"
+			},
+			{
+				"value":"PB 3877",
+				"source":"5"
 			}
 		],
 		"binary":[
@@ -28,15 +62,24 @@
 				"source":"1"
 			}
 		],
-		"claimedtype":[
+		"boundprobability":[
 			{
-				"value":"HVS",
-				"source":"1,2"
+				"value":"0.382204",
+				"derived":true,
+				"e_lower_value":"0.0019850044923487853",
+				"e_upper_value":"0.0019876289143961334",
+				"source":"7"
 			}
 		],
 		"companionspectraltype":[
 			{
-				"value":"K3V",
+				"value":"K3",
+				"source":"1"
+			}
+		],
+		"companionstellarclass":[
+			{
+				"value":"d",
 				"source":"1"
 			}
 		],
@@ -45,13 +88,34 @@
 				"value":"+14:37:16.2",
 				"u_value":"degrees",
 				"source":"2"
+			},
+			{
+				"value":"+14:37:15.8903",
+				"e_value":"0.252",
+				"u_e_value":"mas",
+				"u_value":"degrees",
+				"source":"4"
 			}
 		],
-		"host":[
+		"discoverdate":[
 			{
-				"value":"Milky Way",
-				"derived":true,
+				"value":"2011",
+				"alias":"1",
 				"source":"2"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"A. Tillich, U. Heber, S. Geier, H. Hirsch, P. F. L. Maxted, B. T. Gänsicke, T. R. Marsh, R. Napiwotzki, R. H. Østensen, R.-D. Scholz",
+				"alias":"1",
+				"source":"2"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.03227",
+				"derived":true,
+				"source":"6"
 			}
 		],
 		"lumdist":[
@@ -89,11 +153,24 @@
 				"value":"12:11:50.27",
 				"u_value":"hours",
 				"source":"2"
+			},
+			{
+				"value":"12:11:50.2541",
+				"e_value":"0.429",
+				"u_e_value":"mas",
+				"u_value":"hours",
+				"source":"4"
 			}
 		],
 		"spectraltype":[
 			{
-				"value":"sdB",
+				"value":"B",
+				"source":"1,2"
+			}
+		],
+		"stellarclass":[
+			{
+				"value":"sd",
 				"source":"1,2"
 			}
 		],
@@ -109,6 +186,84 @@
 				"e_value":"2.1",
 				"u_value":"km/s",
 				"source":"1"
+			},
+			{
+				"value":"548.587",
+				"derived":true,
+				"e_value":"20.9012",
+				"kind":[
+					"galactocentric",
+					"escape"
+				],
+				"u_value":"km/s",
+				"source":"7"
+			},
+			{
+				"value":"574.738",
+				"derived":true,
+				"e_value":"77.5605",
+				"kind":[
+					"galactocentric",
+					"total"
+				],
+				"u_value":"km/s",
+				"source":"7"
+			}
+		],
+		"photometry":[
+			{
+				"time":"52667",
+				"band":"u",
+				"e_magnitude":"0.009469206",
+				"magnitude":"17.43347",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"52667",
+				"band":"g",
+				"e_magnitude":"0.005020541",
+				"magnitude":"17.69295",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"52667",
+				"band":"r",
+				"e_magnitude":"0.006796104",
+				"magnitude":"18.05321",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"52667",
+				"band":"i",
+				"e_magnitude":"0.01084279",
+				"magnitude":"18.2885",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"52667",
+				"band":"z",
+				"e_magnitude":"0.03249928",
+				"magnitude":"18.38889",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"57023",
+				"band":"G",
+				"instrument":"Astrometric",
+				"magnitude":"17.896",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"4"
 			}
 		]
 	}

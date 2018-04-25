@@ -16,16 +16,15 @@
 				"source":"1"
 			}
 		],
-		"claimedtype":[
+		"discoverdate":[
 			{
-				"value":"pHVS",
+				"value":"2014",
 				"source":"1"
 			}
 		],
-		"host":[
+		"discoverer":[
 			{
-				"value":"Milky Way",
-				"derived":true,
+				"value":"Y. Q. Zhang, M. C. Smith, J. L. Carlin",
 				"source":"1"
 			}
 		],
@@ -54,7 +53,17 @@
 		],
 		"spectraltype":[
 			{
-				"value":"K/M",
+				"value":"K",
+				"source":"1"
+			},
+			{
+				"value":"M",
+				"source":"1"
+			}
+		],
+		"stellarclass":[
+			{
+				"value":"d",
 				"source":"1"
 			}
 		],

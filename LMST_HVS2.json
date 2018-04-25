@@ -8,6 +8,32 @@
 				"bibcode":"2014ApJ...789L...2Z",
 				"reference":"Zhong et al. (2014)",
 				"alias":"1"
+			},
+			{
+				"bibcode":"2015ApJS..219...12A",
+				"alias":"2"
+			},
+			{
+				"bibcode":"2016A&A...595A...2G",
+				"alias":"3"
+			},
+			{
+				"name":"The PPMXL Catalog",
+				"bibcode":"2010AJ....139.2440R",
+				"secondary":true,
+				"url":"https://irsa.ipac.caltech.edu/Missions/ppmxl.html",
+				"alias":"4"
+			},
+			{
+				"bibcode":"2018arXiv180103555G",
+				"alias":"5"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"6"
 			}
 		],
 		"alias":[
@@ -20,10 +46,13 @@
 				"source":"1"
 			}
 		],
-		"claimedtype":[
+		"boundprobability":[
 			{
-				"value":"pHVS",
-				"source":"1"
+				"value":"0.602697",
+				"derived":true,
+				"e_lower_value":"0.002001415408652174",
+				"e_upper_value":"0.001999127393478184",
+				"source":"6"
 			}
 		],
 		"dec":[
@@ -31,13 +60,32 @@
 				"value":"+24:27:52.9",
 				"u_value":"degrees",
 				"source":"1"
+			},
+			{
+				"value":"+24:27:52.8521",
+				"e_value":"0.117",
+				"u_e_value":"mas",
+				"u_value":"degrees",
+				"source":"3"
 			}
 		],
-		"host":[
+		"discoverdate":[
 			{
-				"value":"Milky Way",
-				"derived":true,
+				"value":"2014",
 				"source":"1"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Jing Zhong, Li Chen, Chao Liu, Richard de Grijs, Jinliang Hou, Shiyin Shen, Zhengyi Shao, Jing Li, Ali Luo, Jianrong Shi, Haotong Zhang, Ming Yang, Licai Deng, Ge Jin, Yong Zhang, Yonghui Hou, Zhenchao Zhang",
+				"source":"1"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.042055",
+				"derived":true,
+				"source":"5"
 			}
 		],
 		"lumdist":[
@@ -49,18 +97,18 @@
 		],
 		"propermotiondec":[
 			{
-				"value":"-2.7",
-				"e_value":"8",
+				"value":"-13.8708",
+				"e_value":"3.708",
 				"u_value":"mas/yr",
-				"source":"1"
+				"source":"4"
 			}
 		],
 		"propermotionra":[
 			{
-				"value":"-59.8",
-				"e_value":"8.5",
+				"value":"-38.664",
+				"e_value":"3.708",
 				"u_value":"mas/yr",
-				"source":"1"
+				"source":"4"
 			}
 		],
 		"ra":[
@@ -68,6 +116,13 @@
 				"value":"09:27:07.09",
 				"u_value":"hours",
 				"source":"1"
+			},
+			{
+				"value":"09:27:07.0759",
+				"e_value":"0.257",
+				"u_e_value":"mas",
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"spectraltype":[
@@ -76,11 +131,95 @@
 				"source":"1"
 			}
 		],
+		"stellarclass":[
+			{
+				"value":"d",
+				"source":"1"
+			}
+		],
 		"velocity":[
 			{
 				"value":"308",
 				"u_value":"km/s",
 				"source":"1"
+			},
+			{
+				"value":"534.663",
+				"derived":true,
+				"e_value":"21.6934",
+				"kind":[
+					"galactocentric",
+					"escape"
+				],
+				"u_value":"km/s",
+				"source":"6"
+			},
+			{
+				"value":"517.519",
+				"derived":true,
+				"e_value":"190.766",
+				"kind":[
+					"galactocentric",
+					"total"
+				],
+				"u_value":"km/s",
+				"source":"6"
+			}
+		],
+		"photometry":[
+			{
+				"time":"53350",
+				"band":"u",
+				"e_magnitude":"0.008258508",
+				"magnitude":"17.17342",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"53350",
+				"band":"g",
+				"e_magnitude":"0.004336579",
+				"magnitude":"16.1888",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"53350",
+				"band":"r",
+				"e_magnitude":"0.004700353",
+				"magnitude":"15.83398",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"53350",
+				"band":"i",
+				"e_magnitude":"0.004782653",
+				"magnitude":"15.90048",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"53350",
+				"band":"z",
+				"e_magnitude":"0.006470787",
+				"magnitude":"15.67299",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"57023",
+				"band":"G",
+				"instrument":"Astrometric",
+				"magnitude":"15.777",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"3"
 			}
 		]
 	}

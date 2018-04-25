@@ -14,71 +14,201 @@
 				"bibcode":"2012ApJ...751...55B",
 				"reference":"Brown, Geller, & Kenyon (2012)",
 				"alias":"2"
+			},
+			{
+				"bibcode":"2015ApJS..219...12A",
+				"alias":"3"
+			},
+			{
+				"bibcode":"2016A&A...595A...2G",
+				"alias":"4"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"5"
+			},
+			{
+				"bibcode":"2018arXiv180103555G",
+				"alias":"6"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"7"
 			}
 		],
 		"alias":[
 			{
 				"value":"SDSSJ002810.33+215809.66",
 				"source":"1,2"
+			},
+			{
+				"value":"SDSSJ002810.33+215809.6",
+				"source":"5"
 			}
 		],
-		"claimedtype":[
+		"boundprobability":[
 			{
-				"value":"pBHVS",
-				"source":"1,2"
+				"value":"0.992684",
+				"derived":true,
+				"e_lower_value":"0.0003537431560455273",
+				"e_upper_value":"0.0003427705577003781",
+				"upperlimit":true,
+				"source":"7"
 			}
 		],
 		"dec":[
 			{
-				"value":"+21:58:12.2753",
-				"u_value":"degrees",
-				"source":"2"
-			},
-			{
 				"value":"+21:58:09.66",
 				"u_value":"degrees",
-				"source":"1"
+				"source":"1,2"
+			},
+			{
+				"value":"+21:58:09.6784",
+				"e_value":"3.299",
+				"u_e_value":"mas",
+				"u_value":"degrees",
+				"source":"4"
 			}
 		],
-		"host":[
+		"discoverdate":[
 			{
-				"value":"Milky Way",
-				"derived":true,
+				"value":"2012",
 				"source":"2"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Warren R. Brown, Margaret J. Geller, Scott J. Kenyon",
+				"source":"2"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.09051",
+				"derived":true,
+				"source":"6"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"23.0995",
-				"u_value":"kpc",
-				"source":"2"
-			},
-			{
 				"value":"44.6377",
-				"e_lower_value":"9.19682070895",
-				"e_upper_value":"9.12974487421",
+				"derived":true,
+				"e_lower_value":"9.196820708945381",
+				"e_upper_value":"9.12974487421252",
 				"u_value":"kpc",
 				"source":"1"
 			}
 		],
 		"ra":[
 			{
-				"value":"00:28:09.5878",
-				"u_value":"hours",
-				"source":"2"
-			},
-			{
 				"value":"00:28:10.33",
 				"u_value":"hours",
-				"source":"1"
+				"source":"1,2"
+			},
+			{
+				"value":"00:28:10.3307",
+				"e_value":"7.089",
+				"u_e_value":"mas",
+				"u_value":"hours",
+				"source":"4"
 			}
 		],
 		"velocity":[
+			{
+				"value":"150",
+				"u_value":"km/s",
+				"source":"2"
+			},
 			{
 				"value":"148",
 				"e_value":"6.9",
 				"u_value":"km/s",
 				"source":"1"
+			},
+			{
+				"value":"409.94",
+				"derived":true,
+				"e_value":"44.7529",
+				"kind":[
+					"galactocentric",
+					"escape"
+				],
+				"u_value":"km/s",
+				"source":"7"
+			},
+			{
+				"value":"310.488",
+				"derived":true,
+				"e_value":"9.54214",
+				"kind":[
+					"galactocentric",
+					"total"
+				],
+				"lowerlimit":true,
+				"u_value":"km/s",
+				"source":"7"
+			}
+		],
+		"photometry":[
+			{
+				"time":"54849",
+				"band":"u",
+				"e_magnitude":"0.01469897",
+				"magnitude":"18.07255",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"54849",
+				"band":"g",
+				"e_magnitude":"0.004780299",
+				"magnitude":"17.29815",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"54849",
+				"band":"r",
+				"e_magnitude":"0.005782087",
+				"magnitude":"17.54416",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"54849",
+				"band":"i",
+				"e_magnitude":"0.007372089",
+				"magnitude":"17.73673",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"54849",
+				"band":"z",
+				"e_magnitude":"0.01901712",
+				"magnitude":"17.86004",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"57023",
+				"band":"G",
+				"instrument":"Astrometric",
+				"magnitude":"17.448",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"4"
 			}
 		]
 	}

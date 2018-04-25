@@ -22,8 +22,9 @@
 				"alias":"3"
 			},
 			{
-				"name":"2009ApJ...690.1369B",
-				"bibcode":"2009ApJ...690.1369B",
+				"name":"2009ApJ...690.1639B",
+				"bibcode":"2009ApJ...690.1639B",
+				"reference":"Brown, Geller, & Kenyon (2009)",
 				"alias":"4"
 			},
 			{
@@ -31,6 +32,32 @@
 				"bibcode":"2007ApJ...671.1708B",
 				"reference":"Brown et al. (2007)",
 				"alias":"5"
+			},
+			{
+				"bibcode":"2015ApJS..219...12A",
+				"alias":"6"
+			},
+			{
+				"bibcode":"2016A&A...595A...2G",
+				"alias":"7"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"8"
+			},
+			{
+				"bibcode":"2018arXiv180103555G",
+				"alias":"9"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"10"
 			}
 		],
 		"alias":[
@@ -40,59 +67,94 @@
 			},
 			{
 				"value":"SDSSJ120337.85+180250.3",
-				"source":"1"
+				"source":"1,8"
 			},
 			{
 				"value":"SDSSJ120337.85+180250.4",
-				"source":"4"
+				"source":"4,8"
 			},
 			{
 				"value":"SDSSJ120337.85+180250.35",
 				"source":"2,3"
+			},
+			{
+				"value":"HV 10",
+				"source":"8"
+			},
+			{
+				"value":"GSC2 N12020133530",
+				"source":"8"
+			},
+			{
+				"value":"USNO-B1.0 1080-00234374",
+				"source":"8"
+			},
+			{
+				"value":"J120337.86+180250.3",
+				"source":"8"
 			}
 		],
-		"claimedtype":[
+		"boundprobability":[
 			{
-				"value":"HVS",
-				"source":"2,3,4,5"
+				"value":"0.672594",
+				"derived":true,
+				"e_lower_value":"0.0019201397982815394",
+				"e_upper_value":"0.00191629451070785",
+				"source":"10"
 			}
 		],
 		"dec":[
 			{
-				"value":"+18:02:47.0533",
+				"value":"+18:02:50.4",
 				"u_value":"degrees",
-				"source":"3,4"
+				"source":"4"
 			},
 			{
 				"value":"+18:02:50.35",
 				"u_value":"degrees",
-				"source":"2,5"
+				"source":"2,3,5"
+			},
+			{
+				"value":"+18:02:50.3703",
+				"e_value":"0.723",
+				"u_e_value":"mas",
+				"u_value":"degrees",
+				"source":"7"
 			}
 		],
-		"host":[
+		"discoverdate":[
 			{
-				"value":"Milky Way",
+				"value":"2007",
+				"alias":"1",
+				"source":"5"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"Warren R. Brown, Margaret J. Geller, Scott J. Kenyon, Michael J. Kurtz, Benjamin C. Bromley",
+				"alias":"1",
+				"source":"5"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.02116",
 				"derived":true,
-				"source":"1"
+				"source":"9"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"85.9053",
+				"derived":true,
 				"u_value":"kpc",
 				"source":"4"
 			},
 			{
-				"value":"64.7793",
+				"value":"52",
+				"e_value":"5.8",
 				"u_value":"kpc",
-				"source":"3"
-			},
-			{
-				"value":"52.7553",
-				"e_lower_value":"6.08432153617",
-				"e_upper_value":"6.066880857",
-				"u_value":"kpc",
-				"source":"2"
+				"source":"1"
 			}
 		],
 		"propermotiondec":[
@@ -113,9 +175,9 @@
 		],
 		"ra":[
 			{
-				"value":"12:03:36.4264",
+				"value":"12:03:37.85",
 				"u_value":"hours",
-				"source":"3,4"
+				"source":"2,3,4"
 			},
 			{
 				"value":"12:03:37.86",
@@ -123,15 +185,31 @@
 				"source":"5"
 			},
 			{
-				"value":"12:03:37.85",
+				"value":"12:03:37.8537",
+				"e_value":"1.541",
+				"u_e_value":"mas",
 				"u_value":"hours",
-				"source":"2"
+				"source":"7"
 			}
 		],
 		"spectraltype":[
 			{
 				"value":"B",
 				"source":"4"
+			},
+			{
+				"value":"B9",
+				"source":"5"
+			}
+		],
+		"stellarclass":[
+			{
+				"value":"d",
+				"source":"4,5"
+			},
+			{
+				"value":"bhb",
+				"source":"5"
 			}
 		],
 		"velocity":[
@@ -146,6 +224,84 @@
 				"e_value":"5.6",
 				"u_value":"km/s",
 				"source":"2"
+			},
+			{
+				"value":"476.625",
+				"derived":true,
+				"e_value":"19.523",
+				"kind":[
+					"galactocentric",
+					"escape"
+				],
+				"u_value":"km/s",
+				"source":"10"
+			},
+			{
+				"value":"462.905",
+				"derived":true,
+				"e_value":"36.3103",
+				"kind":[
+					"galactocentric",
+					"total"
+				],
+				"u_value":"km/s",
+				"source":"10"
+			}
+		],
+		"photometry":[
+			{
+				"time":"53522",
+				"band":"u",
+				"e_magnitude":"0.05033426",
+				"magnitude":"20.16333",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"6"
+			},
+			{
+				"time":"53522",
+				"band":"g",
+				"e_magnitude":"0.01242556",
+				"magnitude":"19.307",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"6"
+			},
+			{
+				"time":"53522",
+				"band":"r",
+				"e_magnitude":"0.01806188",
+				"magnitude":"19.59065",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"6"
+			},
+			{
+				"time":"53522",
+				"band":"i",
+				"e_magnitude":"0.0305902",
+				"magnitude":"19.78757",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"6"
+			},
+			{
+				"time":"53522",
+				"band":"z",
+				"e_magnitude":"0.1247941",
+				"magnitude":"19.98418",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"6"
+			},
+			{
+				"time":"57023",
+				"band":"G",
+				"instrument":"Astrometric",
+				"magnitude":"19.507",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"7"
 			}
 		]
 	}

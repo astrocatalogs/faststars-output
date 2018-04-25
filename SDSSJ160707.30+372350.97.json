@@ -8,18 +8,35 @@
 				"bibcode":"2015AJ....150...77V",
 				"reference":"Vickers, Smith, & Grebel (2015)",
 				"alias":"1"
+			},
+			{
+				"bibcode":"2015ApJS..219...12A",
+				"alias":"2"
+			},
+			{
+				"bibcode":"2016A&A...595A...2G",
+				"alias":"3"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"4"
+			},
+			{
+				"bibcode":"1998ApJ...500..525S",
+				"alias":"5"
 			}
 		],
 		"alias":[
 			{
 				"value":"SDSSJ160707.30+372350.97",
 				"source":"1"
-			}
-		],
-		"claimedtype":[
+			},
 			{
-				"value":"pHVS",
-				"source":"1"
+				"value":"SDSSJ160707.29+372350.9",
+				"source":"4"
 			}
 		],
 		"dec":[
@@ -27,13 +44,33 @@
 				"value":"+37:23:50.97",
 				"u_value":"degrees",
 				"source":"1"
+			},
+			{
+				"value":"+37:23:50.8802",
+				"e_value":"0.413",
+				"u_e_value":"mas",
+				"u_value":"degrees",
+				"source":"3"
 			}
 		],
-		"host":[
+		"discoverdate":[
 			{
-				"value":"Milky Way",
-				"derived":true,
+				"value":"2015",
 				"source":"1"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"John J.Vickers, Martin C. Smith, Eva K. Grebel",
+				"source":"1"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0111598",
+				"derived":true,
+				"upperlimit":true,
+				"source":"5"
 			}
 		],
 		"ra":[
@@ -41,12 +78,93 @@
 				"value":"16:07:07.3",
 				"u_value":"hours",
 				"source":"1"
+			},
+			{
+				"value":"16:07:07.2998",
+				"e_value":"0.3",
+				"u_e_value":"mas",
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"spectraltype":[
 			{
-				"value":"F/G/K/M",
+				"value":"F",
 				"source":"1"
+			},
+			{
+				"value":"G",
+				"source":"1"
+			},
+			{
+				"value":"K",
+				"source":"1"
+			},
+			{
+				"value":"M",
+				"source":"1"
+			}
+		],
+		"stellarclass":[
+			{
+				"value":"d",
+				"source":"1"
+			}
+		],
+		"photometry":[
+			{
+				"time":"52402",
+				"band":"u",
+				"e_magnitude":"0.07395379",
+				"magnitude":"20.71264",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"52402",
+				"band":"g",
+				"e_magnitude":"0.01068209",
+				"magnitude":"19.17096",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"52402",
+				"band":"r",
+				"e_magnitude":"0.01024837",
+				"magnitude":"18.77985",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"52402",
+				"band":"i",
+				"e_magnitude":"0.0116114",
+				"magnitude":"18.67737",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"52402",
+				"band":"z",
+				"e_magnitude":"0.03341722",
+				"magnitude":"18.7117",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"2"
+			},
+			{
+				"time":"57023",
+				"band":"G",
+				"instrument":"Astrometric",
+				"magnitude":"18.753",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"3"
 			}
 		]
 	}

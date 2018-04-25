@@ -8,18 +8,66 @@
 				"bibcode":"2015MNRAS.447.2046H",
 				"reference":"Hawkins et al. (2015)",
 				"alias":"1"
+			},
+			{
+				"bibcode":"2016A&A...595A...2G",
+				"alias":"2"
+			},
+			{
+				"name":"The PPMXL Catalog",
+				"bibcode":"2010AJ....139.2440R",
+				"secondary":true,
+				"url":"https://irsa.ipac.caltech.edu/Missions/ppmxl.html",
+				"alias":"3"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"4"
+			},
+			{
+				"bibcode":"1998ApJ...500..525S",
+				"alias":"5"
+			},
+			{
+				"name":"The Open Supernova Catalog",
+				"bibcode":"2017ApJ...835...64G",
+				"secondary":true,
+				"url":"https://sne.space",
+				"alias":"6"
 			}
 		],
 		"alias":[
 			{
 				"value":"RAVEJ142103.5-374549",
 				"source":"1"
+			},
+			{
+				"value":"RAVE J142103.5-374549",
+				"source":"4"
+			},
+			{
+				"value":"DENIS J142103.4-374548",
+				"source":"4"
+			},
+			{
+				"value":"2MASS J14210344-3745489",
+				"source":"4"
+			},
+			{
+				"value":"USNO-B1.0 0522-00410325",
+				"source":"4"
 			}
 		],
-		"claimedtype":[
+		"boundprobability":[
 			{
-				"value":"NA",
-				"source":"1"
+				"value":"0.918786",
+				"derived":true,
+				"e_lower_value":"0.0011212497467736338",
+				"e_upper_value":"0.0011119196960174271",
+				"source":"6"
 			}
 		],
 		"dec":[
@@ -27,20 +75,40 @@
 				"value":"-37:45:49",
 				"u_value":"degrees",
 				"source":"1"
+			},
+			{
+				"value":"-37:45:48.9508",
+				"e_value":"0.215",
+				"u_e_value":"mas",
+				"u_value":"degrees",
+				"source":"2"
 			}
 		],
-		"host":[
+		"discoverdate":[
 			{
-				"value":"Milky Way",
-				"derived":true,
+				"value":"2015",
 				"source":"1"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"K. Hawkins, G. Kordopatis, G. Gilmore, T. Masseron, R. F. G. Wyse, G. Ruchti, O. Bienaymé, J. Bland-Hawthorn, C. Boeche, K. Freeman, B. K. Gibson, E. K. Grebel, A. Helmi, A. Kunder, U. Munari, J. F. Navarro, Q. A. Parker, W. A. Reid, R. D. Scholz, G. Seabroke, A. Siebert, M. Steinmetz, F. Watson, T. Zwitter",
+				"source":"1"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.0645179",
+				"derived":true,
+				"upperlimit":true,
+				"source":"5"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"3963",
-				"e_value":"2541",
-				"u_value":"pc",
+				"value":"3.963",
+				"e_value":"2.541",
+				"u_value":"kpc",
 				"source":"1"
 			}
 		],
@@ -65,6 +133,19 @@
 				"value":"14:21:03.5",
 				"u_value":"hours",
 				"source":"1"
+			},
+			{
+				"value":"14:21:03.4483",
+				"e_value":"0.335",
+				"u_e_value":"mas",
+				"u_value":"hours",
+				"source":"2"
+			}
+		],
+		"stellarclass":[
+			{
+				"value":"g",
+				"source":"1"
 			}
 		],
 		"velocity":[
@@ -73,6 +154,39 @@
 				"e_value":"1.1",
 				"u_value":"km/s",
 				"source":"1"
+			},
+			{
+				"value":"580.387",
+				"derived":true,
+				"e_value":"25.8697",
+				"kind":[
+					"galactocentric",
+					"escape"
+				],
+				"u_value":"km/s",
+				"source":"6"
+			},
+			{
+				"value":"463.375",
+				"derived":true,
+				"e_value":"87.1266",
+				"kind":[
+					"galactocentric",
+					"total"
+				],
+				"u_value":"km/s",
+				"source":"6"
+			}
+		],
+		"photometry":[
+			{
+				"time":"57023",
+				"band":"G",
+				"instrument":"Astrometric",
+				"magnitude":"12.225",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"2"
 			}
 		]
 	}
