@@ -46,8 +46,8 @@
 				"source":"1"
 			},
 			{
-				"value":"-00:25:48.431",
-				"e_value":"22.801",
+				"value":"-00:25:48.4405",
+				"e_value":"1.1362",
 				"u_e_value":"mas",
 				"u_value":"degrees",
 				"source":"3"
@@ -80,8 +80,8 @@
 				"source":"1"
 			},
 			{
-				"value":"10:53:00.431",
-				"e_value":"12.115",
+				"value":"10:53:00.4311",
+				"e_value":"0.666",
 				"u_e_value":"mas",
 				"u_value":"hours",
 				"source":"3"
@@ -160,8 +160,27 @@
 			{
 				"time":"57023",
 				"band":"G",
+				"e_magnitude":"0.0065",
 				"instrument":"Astrometric",
-				"magnitude":"19.377",
+				"magnitude":"19.466",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"57023",
+				"band":"GBP",
+				"e_magnitude":"0.078",
+				"magnitude":"20.0126",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"57023",
+				"band":"GRP",
+				"e_magnitude":"0.0387",
+				"magnitude":"18.8852",
 				"telescope":"Gaia",
 				"u_time":"MJD",
 				"source":"3"

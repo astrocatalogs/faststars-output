@@ -14,10 +14,7 @@
 				"alias":"2"
 			},
 			{
-				"name":"The PPMXL Catalog",
-				"bibcode":"2010AJ....139.2440R",
-				"secondary":true,
-				"url":"https://irsa.ipac.caltech.edu/Missions/ppmxl.html",
+				"bibcode":"2016A&A...595A...2G",
 				"alias":"3"
 			},
 			{
@@ -47,6 +44,13 @@
 				"value":"-01:01:28.84",
 				"u_value":"degrees",
 				"source":"1"
+			},
+			{
+				"value":"-01:01:28.8234",
+				"e_value":"0.612",
+				"u_e_value":"mas",
+				"u_value":"degrees",
+				"source":"3"
 			}
 		],
 		"discoverdate":[
@@ -69,27 +73,18 @@
 				"source":"5"
 			}
 		],
-		"propermotiondec":[
-			{
-				"value":"73.908",
-				"e_value":"4.392",
-				"u_value":"mas/yr",
-				"source":"3"
-			}
-		],
-		"propermotionra":[
-			{
-				"value":"10.2096",
-				"e_value":"4.392",
-				"u_value":"mas/yr",
-				"source":"3"
-			}
-		],
 		"ra":[
 			{
 				"value":"22:03:48.52",
 				"u_value":"hours",
 				"source":"1"
+			},
+			{
+				"value":"22:03:48.5364",
+				"e_value":"0.6494",
+				"u_e_value":"mas",
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"spectraltype":[
@@ -161,6 +156,34 @@
 				"telescope":"SDSS",
 				"u_time":"MJD",
 				"source":"2"
+			},
+			{
+				"time":"57023",
+				"band":"G",
+				"e_magnitude":"0.0016",
+				"instrument":"Astrometric",
+				"magnitude":"17.5596",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"57023",
+				"band":"GBP",
+				"e_magnitude":"0.0194",
+				"magnitude":"18.1736",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"57023",
+				"band":"GRP",
+				"e_magnitude":"0.0069",
+				"magnitude":"16.8309",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"3"
 			}
 		]
 	}

@@ -38,22 +38,26 @@
 				"alias":"6"
 			},
 			{
+				"bibcode":"2016A&A...595A...2G",
+				"alias":"7"
+			},
+			{
 				"name":"SIMBAD astronomical database",
 				"bibcode":"2000A&AS..143....9W",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"bibcode":"2018arXiv180103555G",
-				"alias":"8"
+				"alias":"9"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"9"
+				"alias":"10"
 			}
 		],
 		"alias":[
@@ -67,7 +71,7 @@
 			},
 			{
 				"value":"SDSSJ113312.12+010824.9",
-				"source":"4,7"
+				"source":"4,8"
 			},
 			{
 				"value":"SDSSJ113312.12+010824.87",
@@ -75,36 +79,36 @@
 			},
 			{
 				"value":"EPIC 201540171",
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"value":"GALEX 2413439155581226272",
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"value":"SDSSJ113312.12+010824.8",
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"value":"USNO-A2.0 0900-06954189",
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"value":"J113312.12+010824.9",
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"value":"HV 7",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"boundprobability":[
 			{
-				"value":"0.184611",
+				"value":"0.166811",
 				"derived":true,
-				"e_lower_value":"0.0015824264909264918",
-				"e_upper_value":"0.0015894531224144304",
-				"source":"9"
+				"e_lower_value":"0.0015201993791689183",
+				"e_upper_value":"0.0015276225561770274",
+				"source":"10"
 			}
 		],
 		"dec":[
@@ -122,6 +126,34 @@
 				"value":"+01:08:24.87",
 				"u_value":"degrees",
 				"source":"2,3"
+			},
+			{
+				"value":"+01:08:24.842",
+				"correlations":[
+					{
+						"kind":"Pearson",
+						"quantity":"parallax",
+						"value":"-0.1972"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"propermotionra",
+						"value":"0.2037"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"propermotiondec",
+						"value":"0.0399"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"ra",
+						"value":"-0.1979"
+					}
+				],
+				"e_value":"0.1287",
+				"u_value":"mas",
+				"source":"7"
 			}
 		],
 		"discoverdate":[
@@ -142,16 +174,10 @@
 			{
 				"value":"0.032275",
 				"derived":true,
-				"source":"8"
+				"source":"9"
 			}
 		],
 		"lumdist":[
-			{
-				"value":"58.9536",
-				"derived":true,
-				"u_value":"kpc",
-				"source":"4"
-			},
 			{
 				"value":"52.7553",
 				"derived":true,
@@ -159,22 +185,103 @@
 				"e_upper_value":"6.066880856995013",
 				"u_value":"kpc",
 				"source":"2"
+			},
+			{
+				"value":"53.5183",
+				"derived":true,
+				"e_value":"24.4947",
+				"u_value":"kpc",
+				"source":"10"
+			}
+		],
+		"parallax":[
+			{
+				"value":"-0.1803",
+				"correlations":[
+					{
+						"kind":"Pearson",
+						"quantity":"propermotionra",
+						"value":"-0.0641"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"propermotiondec",
+						"value":"-0.1806"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"ra",
+						"value":"-0.2663"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"dec",
+						"value":"-0.1972"
+					}
+				],
+				"e_value":"0.2006",
+				"u_value":"mas",
+				"source":"7"
 			}
 		],
 		"propermotiondec":[
 			{
-				"value":"-0.55",
-				"e_value":"1.04",
+				"value":"0.457",
+				"correlations":[
+					{
+						"kind":"Pearson",
+						"quantity":"ra",
+						"value":"0.2116"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"dec",
+						"value":"0.0399"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"parallax",
+						"value":"-0.1806"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"propermotionra",
+						"value":"-0.2767"
+					}
+				],
+				"e_value":"0.253",
 				"u_value":"mas/yr",
-				"source":"1"
+				"source":"7"
 			}
 		],
 		"propermotionra":[
 			{
-				"value":"1",
-				"e_value":"0.82",
+				"value":"-0.677",
+				"correlations":[
+					{
+						"kind":"Pearson",
+						"quantity":"propermotiondec",
+						"value":"-0.2767"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"ra",
+						"value":"-0.0248"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"dec",
+						"value":"0.2037"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"parallax",
+						"value":"-0.0641"
+					}
+				],
+				"e_value":"0.373",
 				"u_value":"mas/yr",
-				"source":"1"
+				"source":"7"
 			}
 		],
 		"ra":[
@@ -182,6 +289,34 @@
 				"value":"11:33:12.12",
 				"u_value":"hours",
 				"source":"2,3,4,5"
+			},
+			{
+				"value":"11:33:12.1224",
+				"correlations":[
+					{
+						"kind":"Pearson",
+						"quantity":"dec",
+						"value":"-0.1979"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"parallax",
+						"value":"-0.2663"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"propermotionra",
+						"value":"-0.0248"
+					},
+					{
+						"kind":"Pearson",
+						"quantity":"propermotiondec",
+						"value":"0.2116"
+					}
+				],
+				"e_value":"0.1724",
+				"u_value":"mas",
+				"source":"7"
 			}
 		],
 		"spectraltype":[
@@ -218,26 +353,26 @@
 				"source":"2"
 			},
 			{
-				"value":"432.75",
+				"value":"428.82",
 				"derived":true,
-				"e_value":"45.5396",
+				"e_value":"42.9742",
 				"kind":[
 					"galactocentric",
 					"escape"
 				],
 				"u_value":"km/s",
-				"source":"9"
+				"source":"10"
 			},
 			{
-				"value":"638.472",
+				"value":"518.751",
 				"derived":true,
-				"e_value":"238.422",
+				"e_value":"71.0323",
 				"kind":[
 					"galactocentric",
 					"total"
 				],
 				"u_value":"km/s",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"photometry":[
@@ -285,6 +420,34 @@
 				"telescope":"SDSS",
 				"u_time":"MJD",
 				"source":"6"
+			},
+			{
+				"time":"57023",
+				"band":"G",
+				"e_magnitude":"0.0025",
+				"instrument":"Astrometric",
+				"magnitude":"17.9615",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"57023",
+				"band":"GBP",
+				"e_magnitude":"0.0174",
+				"magnitude":"17.8669",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"7"
+			},
+			{
+				"time":"57023",
+				"band":"GRP",
+				"e_magnitude":"0.022",
+				"magnitude":"17.975",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"7"
 			}
 		]
 	}

@@ -20,29 +20,22 @@
 				"alias":"3"
 			},
 			{
-				"name":"The PPMXL Catalog",
-				"bibcode":"2010AJ....139.2440R",
-				"secondary":true,
-				"url":"https://irsa.ipac.caltech.edu/Missions/ppmxl.html",
-				"alias":"4"
-			},
-			{
 				"name":"SIMBAD astronomical database",
 				"bibcode":"2000A&AS..143....9W",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"bibcode":"2018arXiv180103555G",
-				"alias":"6"
+				"alias":"5"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"7"
+				"alias":"6"
 			}
 		],
 		"alias":[
@@ -52,7 +45,7 @@
 			},
 			{
 				"value":"SDSSJ121441.21+414924.8",
-				"source":"1,5"
+				"source":"1,4"
 			},
 			{
 				"value":"SDSSJ121441.2+414924.8",
@@ -60,31 +53,31 @@
 			},
 			{
 				"value":"LP 216-79",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"value":"LHS 2533",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"value":"LSPM J1214+4149",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"value":"2MASS J12144145+4149269",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"value":"NLTT 30087",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"value":"SDSSJ121441.22+414924.8",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"value":"USNO-B1.0 1318-00250280",
-				"source":"5"
+				"source":"4"
 			}
 		],
 		"boundprobability":[
@@ -93,7 +86,7 @@
 				"derived":true,
 				"e_lower_value":"0.0019665813700656676",
 				"e_upper_value":"0.001963518059871272",
-				"source":"7"
+				"source":"6"
 			}
 		],
 		"dec":[
@@ -119,7 +112,7 @@
 			{
 				"value":"0.0122494",
 				"derived":true,
-				"source":"6"
+				"source":"5"
 			}
 		],
 		"lumdist":[
@@ -194,7 +187,7 @@
 					"escape"
 				],
 				"u_value":"km/s",
-				"source":"7"
+				"source":"6"
 			},
 			{
 				"value":"512.328",
@@ -205,7 +198,7 @@
 					"total"
 				],
 				"u_value":"km/s",
-				"source":"7"
+				"source":"6"
 			}
 		],
 		"photometry":[

@@ -14,10 +14,7 @@
 				"alias":"2"
 			},
 			{
-				"name":"The PPMXL Catalog",
-				"bibcode":"2010AJ....139.2440R",
-				"secondary":true,
-				"url":"https://irsa.ipac.caltech.edu/Missions/ppmxl.html",
+				"bibcode":"2016A&A...595A...2G",
 				"alias":"3"
 			},
 			{
@@ -59,10 +56,11 @@
 		],
 		"boundprobability":[
 			{
-				"value":"0.000916852",
+				"value":"0.0586147",
 				"derived":true,
-				"e_lower_value":"0.00011786007626446795",
-				"e_upper_value":"0.00012894509312300745",
+				"e_lower_value":"0.0009552605852241325",
+				"e_upper_value":"0.0009650939908835143",
+				"upperlimit":true,
 				"source":"6"
 			}
 		],
@@ -71,6 +69,13 @@
 				"value":"+00:54:44.18",
 				"u_value":"degrees",
 				"source":"1"
+			},
+			{
+				"value":"+00:54:44.2154",
+				"e_value":"5.0762",
+				"u_e_value":"mas",
+				"u_value":"degrees",
+				"source":"3"
 			}
 		],
 		"discoverdate":[
@@ -102,27 +107,18 @@
 				"source":"1"
 			}
 		],
-		"propermotiondec":[
-			{
-				"value":"-7.4304",
-				"e_value":"7.812",
-				"u_value":"mas/yr",
-				"source":"3"
-			}
-		],
-		"propermotionra":[
-			{
-				"value":"-4.1688",
-				"e_value":"7.812",
-				"u_value":"mas/yr",
-				"source":"3"
-			}
-		],
 		"ra":[
 			{
 				"value":"21:56:29.01",
 				"u_value":"hours",
 				"source":"1"
+			},
+			{
+				"value":"21:56:29.0206",
+				"e_value":"4.5015",
+				"u_e_value":"mas",
+				"u_value":"hours",
+				"source":"3"
 			}
 		],
 		"spectraltype":[
@@ -153,9 +149,9 @@
 				"source":"1"
 			},
 			{
-				"value":"339.564",
+				"value":"340.135",
 				"derived":true,
-				"e_value":"54.1593",
+				"e_value":"51.4381",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -164,13 +160,14 @@
 				"source":"6"
 			},
 			{
-				"value":"6189.71",
+				"value":"425.864",
 				"derived":true,
-				"e_value":"4679.51",
+				"e_value":"11.6746",
 				"kind":[
 					"galactocentric",
 					"total"
 				],
+				"lowerlimit":true,
 				"u_value":"km/s",
 				"source":"6"
 			}
@@ -220,6 +217,34 @@
 				"telescope":"SDSS",
 				"u_time":"MJD",
 				"source":"2"
+			},
+			{
+				"time":"57023",
+				"band":"G",
+				"e_magnitude":"0.0112",
+				"instrument":"Astrometric",
+				"magnitude":"20.5631",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"57023",
+				"band":"GBP",
+				"e_magnitude":"0.0784",
+				"magnitude":"20.8343",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"57023",
+				"band":"GRP",
+				"e_magnitude":"0.2401",
+				"magnitude":"20.5992",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"3"
 			}
 		]
 	}

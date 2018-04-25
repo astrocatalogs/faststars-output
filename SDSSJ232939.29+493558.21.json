@@ -18,22 +18,15 @@
 				"alias":"3"
 			},
 			{
-				"name":"The PPMXL Catalog",
-				"bibcode":"2010AJ....139.2440R",
-				"secondary":true,
-				"url":"https://irsa.ipac.caltech.edu/Missions/ppmxl.html",
-				"alias":"4"
-			},
-			{
 				"name":"SIMBAD astronomical database",
 				"bibcode":"2000A&AS..143....9W",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"5"
+				"alias":"4"
 			},
 			{
 				"bibcode":"1998ApJ...500..525S",
-				"alias":"6"
+				"alias":"5"
 			}
 		],
 		"alias":[
@@ -43,7 +36,7 @@
 			},
 			{
 				"value":"SDSSJ232939.29+493558.2",
-				"source":"5"
+				"source":"4"
 			}
 		],
 		"dec":[
@@ -53,8 +46,8 @@
 				"source":"1"
 			},
 			{
-				"value":"+49:35:58.2338",
-				"e_value":"32.654",
+				"value":"+49:35:58.2994",
+				"e_value":"2.0367",
 				"u_e_value":"mas",
 				"u_value":"degrees",
 				"source":"3"
@@ -77,23 +70,7 @@
 				"value":"0.189971",
 				"derived":true,
 				"upperlimit":true,
-				"source":"6"
-			}
-		],
-		"propermotiondec":[
-			{
-				"value":"13.6116",
-				"e_value":"6.3",
-				"u_value":"mas/yr",
-				"source":"4"
-			}
-		],
-		"propermotionra":[
-			{
-				"value":"-50.868",
-				"e_value":"6.3",
-				"u_value":"mas/yr",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"ra":[
@@ -103,8 +80,8 @@
 				"source":"1"
 			},
 			{
-				"value":"23:29:39.287",
-				"e_value":"27.19",
+				"value":"23:29:39.2832",
+				"e_value":"1.5677",
 				"u_e_value":"mas",
 				"u_value":"hours",
 				"source":"3"
@@ -183,8 +160,27 @@
 			{
 				"time":"57023",
 				"band":"G",
+				"e_magnitude":"0.0098",
 				"instrument":"Astrometric",
-				"magnitude":"18.339",
+				"magnitude":"18.4199",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"57023",
+				"band":"GBP",
+				"e_magnitude":"0.0139",
+				"magnitude":"18.5959",
+				"telescope":"Gaia",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"57023",
+				"band":"GRP",
+				"e_magnitude":"0.0169",
+				"magnitude":"17.7",
 				"telescope":"Gaia",
 				"u_time":"MJD",
 				"source":"3"
