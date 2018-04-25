@@ -28,36 +28,41 @@
 				"alias":"4"
 			},
 			{
-				"bibcode":"2015ApJS..219...12A",
+				"name":"Boubert et al. (2018, in prep)",
+				"secondary":true,
 				"alias":"5"
 			},
 			{
-				"bibcode":"2016A&A...595A...2G",
+				"bibcode":"2015ApJS..219...12A",
 				"alias":"6"
+			},
+			{
+				"bibcode":"2016A&A...595A...2G",
+				"alias":"7"
 			},
 			{
 				"name":"SIMBAD astronomical database",
 				"bibcode":"2000A&AS..143....9W",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"7"
+				"alias":"8"
 			},
 			{
 				"bibcode":"2018arXiv180103555G",
-				"alias":"8"
+				"alias":"9"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"9"
+				"alias":"10"
 			}
 		],
 		"alias":[
 			{
 				"value":"SDSSJ090710.08+365957.5",
-				"source":"3,4,7"
+				"source":"3,4,8"
 			},
 			{
 				"value":"SDSSJ090710.07+365957.54",
@@ -65,11 +70,11 @@
 			},
 			{
 				"value":"SDSSJ090710.07+365957.5",
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"value":"J090710.08+365957.5",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"boundprobability":[
@@ -78,7 +83,7 @@
 				"derived":true,
 				"e_lower_value":"0.002026753070348386",
 				"e_upper_value":"0.0020252849080837354",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"dec":[
@@ -118,7 +123,7 @@
 				],
 				"e_value":"0.1384",
 				"u_value":"mas",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"discoverdate":[
@@ -137,7 +142,7 @@
 			{
 				"value":"0.02585",
 				"derived":true,
-				"source":"8"
+				"source":"9"
 			}
 		],
 		"lumdist":[
@@ -177,7 +182,7 @@
 				],
 				"e_value":"0.2313",
 				"u_value":"mas",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"propermotiondec":[
@@ -207,7 +212,7 @@
 				],
 				"e_value":"0.293",
 				"u_value":"mas/yr",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"propermotionra":[
@@ -237,7 +242,7 @@
 				],
 				"e_value":"0.31",
 				"u_value":"mas/yr",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"ra":[
@@ -277,17 +282,21 @@
 				],
 				"e_value":"0.1677",
 				"u_value":"mas",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"spectraltype":[
 			{
-				"value":"B9",
-				"source":"4"
+				"value":"A",
+				"source":"5"
 			},
 			{
 				"value":"B",
-				"source":"3"
+				"source":"3,5"
+			},
+			{
+				"value":"B9",
+				"source":"4"
 			}
 		],
 		"stellarclass":[
@@ -324,7 +333,7 @@
 					"escape"
 				],
 				"u_value":"km/s",
-				"source":"9"
+				"source":"10"
 			},
 			{
 				"value":"397.981",
@@ -335,7 +344,7 @@
 					"total"
 				],
 				"u_value":"km/s",
-				"source":"9"
+				"source":"10"
 			}
 		],
 		"photometry":[
@@ -346,7 +355,7 @@
 				"magnitude":"18.9096",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"52621",
@@ -355,7 +364,7 @@
 				"magnitude":"18.12215",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"52621",
@@ -364,7 +373,7 @@
 				"magnitude":"18.43349",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"52621",
@@ -373,7 +382,7 @@
 				"magnitude":"18.66388",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"52621",
@@ -382,7 +391,7 @@
 				"magnitude":"18.85186",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"time":"57023",
@@ -392,7 +401,7 @@
 				"magnitude":"18.332",
 				"telescope":"Gaia",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"57023",
@@ -401,7 +410,7 @@
 				"magnitude":"18.2761",
 				"telescope":"Gaia",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"time":"57023",
@@ -410,7 +419,7 @@
 				"magnitude":"18.3394",
 				"telescope":"Gaia",
 				"u_time":"MJD",
-				"source":"6"
+				"source":"7"
 			}
 		]
 	}
