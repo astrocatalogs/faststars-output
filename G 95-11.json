@@ -1,0 +1,134 @@
+{
+	"G 95-11":{
+		"schema":"https://github.com/astrocatalogs/faststars/blob/4818341/SCHEMA.md",
+		"name":"G 95-11",
+		"sources":[
+			{
+				"name":"2017MNRAS.470.1388M",
+				"bibcode":"2017MNRAS.470.1388M",
+				"reference":"Marchetti et al. (2017)",
+				"alias":"1"
+			},
+			{
+				"name":"2016A&A...595A...2G",
+				"bibcode":"2016A&A...595A...2G",
+				"reference":"Gaia Collaboration et al. (2016)",
+				"alias":"2"
+			},
+			{
+				"name":"1998ApJ...500..525S",
+				"bibcode":"1998ApJ...500..525S",
+				"reference":"Schlegel, Finkbeiner, & Davis (1998)",
+				"alias":"3"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
+				"alias":"4"
+			}
+		],
+		"alias":[
+			{
+				"value":"G 95-11",
+				"source":"4"
+			},
+			{
+				"value":"TYC 2348-333-1",
+				"source":"1,4"
+			},
+			{
+				"value":"ASCC 558320",
+				"source":"4"
+			},
+			{
+				"value":"GaiaDR1 137859551029399040",
+				"source":"4"
+			},
+			{
+				"value":"GEN# +9.80095011",
+				"source":"4"
+			},
+			{
+				"value":"LP 246-59",
+				"source":"4"
+			},
+			{
+				"value":"LSPM J0310+3450",
+				"source":"4"
+			},
+			{
+				"value":"LTT 11027",
+				"source":"4"
+			},
+			{
+				"value":"2MASS J03100445+3450510",
+				"source":"4"
+			},
+			{
+				"value":"NLTT 10047",
+				"source":"4"
+			},
+			{
+				"value":"UBV M 42453",
+				"source":"4"
+			},
+			{
+				"value":"UCAC2 43914236",
+				"source":"4"
+			},
+			{
+				"value":"USNO-B1.0 1248-00046891",
+				"source":"4"
+			},
+			{
+				"value":"uvby98 980095011",
+				"source":"4"
+			}
+		],
+		"dec":[
+			{
+				"value":"+34:50:51.187",
+				"u_value":"degrees",
+				"source":"2"
+			}
+		],
+		"discoverdate":[
+			{
+				"value":"2017",
+				"source":"1"
+			}
+		],
+		"discoverer":[
+			{
+				"value":"T. Marchetti, E. M. Rossi, G. Kordopatis, A. G. A. Brown, A. Rimoldi, E. Starkenburg, K. Youakim, R. Ashley,",
+				"source":"1"
+			}
+		],
+		"ebv":[
+			{
+				"value":"0.186594",
+				"derived":true,
+				"upperlimit":true,
+				"source":"3"
+			}
+		],
+		"ra":[
+			{
+				"value":"03:10:04.4863",
+				"u_value":"hours",
+				"source":"2"
+			}
+		],
+		"velocity":[
+			{
+				"value":"205.26",
+				"e_value":"0.34",
+				"u_value":"km/s",
+				"source":"1"
+			}
+		]
+	}
+}

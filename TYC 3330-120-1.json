@@ -4,48 +4,54 @@
 		"name":"TYC 3330-120-1",
 		"sources":[
 			{
+				"name":"2018arXiv180103555G",
+				"bibcode":"2018arXiv180103555G",
+				"reference":"Green et al. (2018)",
+				"alias":"1"
+			},
+			{
 				"name":"2017MNRAS.470.1388M",
 				"bibcode":"2017MNRAS.470.1388M",
 				"reference":"Marchetti et al. (2017)",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"2016A&A...595A...2G",
 				"bibcode":"2016A&A...595A...2G",
 				"reference":"Gaia Collaboration et al. (2016)",
-				"alias":"2"
-			},
-			{
-				"bibcode":"2015ApJS..219...12A",
 				"alias":"3"
 			},
 			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
+				"name":"2015ApJS..219...12A",
+				"bibcode":"2015ApJS..219...12A",
+				"reference":"Alam et al. (2015)",
 				"alias":"4"
-			},
-			{
-				"bibcode":"2018arXiv180103555G",
-				"alias":"5"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
+				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
+				"alias":"5"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
 				"alias":"6"
 			}
 		],
 		"alias":[
 			{
 				"value":"TYC 3330-120-1",
-				"source":"1,4"
+				"source":"2,6"
 			},
 			{
 				"value":"GaiaDR1 248695099116287872",
-				"source":"4"
+				"source":"6"
 			}
 		],
 		"boundprobability":[
@@ -55,33 +61,33 @@
 				"e_lower_value":"2.2519578492752323e-05",
 				"e_upper_value":"1.2987903849959181e-05",
 				"upperlimit":true,
-				"source":"6"
+				"source":"5"
 			}
 		],
 		"dec":[
 			{
 				"value":"+48:32:14.775",
 				"u_value":"degrees",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2017",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"T. Marchetti, E. M. Rossi, G. Kordopatis, A. G. A. Brown, A. Rimoldi, E. Starkenburg, K. Youakim, R. Ashley,",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.417136",
 				"derived":true,
-				"source":"5"
+				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -89,14 +95,42 @@
 				"value":"0.571",
 				"e_value":"0.03",
 				"u_value":"kpc",
-				"source":"1"
+				"source":"2"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-11.78",
+				"derived":true,
+				"source":"2,5"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"12",
+				"derived":true,
+				"source":"4,5"
+			}
+		],
+		"maxband":[
+			{
+				"value":"i",
+				"derived":true,
+				"source":"4,5"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2004/10/15",
+				"derived":true,
+				"source":"4,5"
 			}
 		],
 		"ra":[
 			{
 				"value":"03:46:50.5167",
 				"u_value":"hours",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"velocity":[
@@ -104,7 +138,7 @@
 				"value":"-24.12",
 				"e_value":"1.26",
 				"u_value":"km/s",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"545.904",
@@ -115,7 +149,7 @@
 					"escape"
 				],
 				"u_value":"km/s",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"value":"89.2163",
@@ -127,19 +161,10 @@
 				],
 				"lowerlimit":true,
 				"u_value":"km/s",
-				"source":"6"
+				"source":"5"
 			}
 		],
 		"photometry":[
-			{
-				"time":"53293",
-				"band":"u",
-				"e_magnitude":"0.01001004",
-				"magnitude":"15.29618",
-				"telescope":"SDSS",
-				"u_time":"MJD",
-				"source":"3"
-			},
 			{
 				"time":"53293",
 				"band":"g",
@@ -147,16 +172,7 @@
 				"magnitude":"12.57462",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"3"
-			},
-			{
-				"time":"53293",
-				"band":"r",
-				"e_magnitude":"0.00090956",
-				"magnitude":"12.1471",
-				"telescope":"SDSS",
-				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"53293",
@@ -165,7 +181,25 @@
 				"magnitude":"12.00042",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
+			},
+			{
+				"time":"53293",
+				"band":"r",
+				"e_magnitude":"0.00090956",
+				"magnitude":"12.1471",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"53293",
+				"band":"u",
+				"e_magnitude":"0.01001004",
+				"magnitude":"15.29618",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
 				"time":"53293",
@@ -174,7 +208,7 @@
 				"magnitude":"12.14799",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			}
 		]
 	}

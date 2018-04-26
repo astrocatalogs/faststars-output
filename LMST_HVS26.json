@@ -4,18 +4,21 @@
 		"name":"LMST_HVS26",
 		"sources":[
 			{
-				"name":"2014ApJ...789L...2Z",
-				"bibcode":"2014ApJ...789L...2Z",
-				"reference":"Zhong et al. (2014)",
+				"name":"2018arXiv180103555G",
+				"bibcode":"2018arXiv180103555G",
+				"reference":"Green et al. (2018)",
 				"alias":"1"
 			},
 			{
-				"bibcode":"2018arXiv180103555G",
+				"name":"2014ApJ...789L...2Z",
+				"bibcode":"2014ApJ...789L...2Z",
+				"reference":"Zhong et al. (2014)",
 				"alias":"2"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
+				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
 				"alias":"3"
@@ -24,11 +27,11 @@
 		"alias":[
 			{
 				"value":"LMST_HVS26",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"J065436.50+170313.8",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"boundprobability":[
@@ -44,33 +47,33 @@
 			{
 				"value":"+17:03:13.8",
 				"u_value":"degrees",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2014",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Jing Zhong, Li Chen, Chao Liu, Richard de Grijs, Jinliang Hou, Shiyin Shen, Zhengyi Shao, Jing Li, Ali Luo, Jianrong Shi, Haotong Zhang, Ming Yang, Licai Deng, Ge Jin, Yong Zhang, Yonghui Hou, Zhenchao Zhang",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.00796286",
 				"derived":true,
-				"source":"2"
+				"source":"1"
 			}
 		],
 		"lumdist":[
 			{
 				"value":"0.2",
 				"u_value":"kpc",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"propermotiondec":[
@@ -78,7 +81,7 @@
 				"value":"-16",
 				"e_value":"2.3",
 				"u_value":"mas/yr",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"propermotionra":[
@@ -86,33 +89,33 @@
 				"value":"-1.4",
 				"e_value":"2.1",
 				"u_value":"mas/yr",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"ra":[
 			{
 				"value":"06:54:36.5",
 				"u_value":"hours",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"spectraltype":[
 			{
 				"value":"F9",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"stellarclass":[
 			{
 				"value":"d",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"velocity":[
 			{
 				"value":"307",
 				"u_value":"km/s",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"549.176",

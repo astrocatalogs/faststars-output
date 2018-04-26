@@ -4,46 +4,52 @@
 		"name":"J004330.06+405258.4",
 		"sources":[
 			{
-				"name":"2015AJ....150..149E",
-				"bibcode":"2015AJ....150..149E",
-				"reference":"Evans & Massey (2015)",
+				"name":"2018arXiv180103555G",
+				"bibcode":"2018arXiv180103555G",
+				"reference":"Green et al. (2018)",
 				"alias":"1"
 			},
 			{
+				"name":"2016A&A...595A...2G",
 				"bibcode":"2016A&A...595A...2G",
+				"reference":"Gaia Collaboration et al. (2016)",
 				"alias":"2"
 			},
 			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
+				"name":"2015AJ....150..149E",
+				"bibcode":"2015AJ....150..149E",
+				"reference":"Evans & Massey (2015)",
 				"alias":"3"
-			},
-			{
-				"bibcode":"2018arXiv180103555G",
-				"alias":"4"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
+				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
+				"alias":"4"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
 				"alias":"5"
 			}
 		],
 		"alias":[
 			{
 				"value":"J004330.06+405258.4",
-				"source":"1,3"
+				"source":"3,5"
 			},
 			{
 				"value":"LGGS J004330.06+405258.4",
-				"source":"3"
+				"source":"5"
 			},
 			{
 				"value":"2MASS J00433008+4052581",
-				"source":"3"
+				"source":"5"
 			}
 		],
 		"boundprobability":[
@@ -52,14 +58,14 @@
 				"derived":true,
 				"e_lower_value":"1.2987903850043172e-05",
 				"e_upper_value":"2.251957849272341e-05",
-				"source":"5"
+				"source":"4"
 			}
 		],
 		"dec":[
 			{
 				"value":"+40:52:58.4",
 				"u_value":"degrees",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"value":"+40:52:58.0831",
@@ -94,27 +100,27 @@
 			{
 				"value":"2015",
 				"alias":"1",
-				"source":"1"
+				"source":"3"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Kate Anne Evans, Philip Massey",
 				"alias":"1",
-				"source":"1"
+				"source":"3"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.079685",
 				"derived":true,
-				"source":"4"
+				"source":"1"
 			}
 		],
 		"host":[
 			{
 				"value":"M31",
-				"source":"1"
+				"source":"3"
 			}
 		],
 		"lumdist":[
@@ -123,7 +129,35 @@
 				"derived":true,
 				"e_value":"378.294",
 				"u_value":"kpc",
-				"source":"5"
+				"source":"4"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-21.8817",
+				"derived":true,
+				"source":"4"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"17.29",
+				"derived":true,
+				"source":"2,4"
+			}
+		],
+		"maxband":[
+			{
+				"value":"GRP",
+				"derived":true,
+				"source":"2,4"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2015/01/01",
+				"derived":true,
+				"source":"2,4"
 			}
 		],
 		"parallax":[
@@ -220,7 +254,7 @@
 			{
 				"value":"00:43:30.06",
 				"u_value":"hours",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"value":"00:43:30.0752",
@@ -254,13 +288,13 @@
 		"spectraltype":[
 			{
 				"value":"M2",
-				"source":"1"
+				"source":"3"
 			}
 		],
 		"stellarclass":[
 			{
 				"value":"Sg",
-				"source":"1"
+				"source":"3"
 			}
 		],
 		"velocity":[
@@ -268,7 +302,7 @@
 				"value":"-630",
 				"e_value":"1",
 				"u_value":"km/s",
-				"source":"1"
+				"source":"3"
 			},
 			{
 				"value":"169.928",
@@ -279,7 +313,7 @@
 					"escape"
 				],
 				"u_value":"km/s",
-				"source":"5"
+				"source":"4"
 			},
 			{
 				"value":"2884.82",
@@ -290,7 +324,7 @@
 					"total"
 				],
 				"u_value":"km/s",
-				"source":"5"
+				"source":"4"
 			}
 		],
 		"photometry":[

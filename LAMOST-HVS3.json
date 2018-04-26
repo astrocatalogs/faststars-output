@@ -4,26 +4,33 @@
 		"name":"LAMOST-HVS3",
 		"sources":[
 			{
-				"name":"2017ApJ...847L...9H",
-				"bibcode":"2017ApJ...847L...9H",
-				"reference":"Huang et al. (2017)",
+				"name":"2018arXiv180103555G",
+				"bibcode":"2018arXiv180103555G",
+				"reference":"Green et al. (2018)",
 				"alias":"1"
 			},
 			{
-				"bibcode":"2015ApJS..219...12A",
+				"name":"2017ApJ...847L...9H",
+				"bibcode":"2017ApJ...847L...9H",
+				"reference":"Huang et al. (2017)",
 				"alias":"2"
 			},
 			{
+				"name":"2016A&A...595A...2G",
 				"bibcode":"2016A&A...595A...2G",
+				"reference":"Gaia Collaboration et al. (2016)",
 				"alias":"3"
 			},
 			{
-				"bibcode":"2018arXiv180103555G",
+				"name":"2015ApJS..219...12A",
+				"bibcode":"2015ApJS..219...12A",
+				"reference":"Alam et al. (2015)",
 				"alias":"4"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
+				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
 				"alias":"5"
@@ -32,11 +39,11 @@
 		"alias":[
 			{
 				"value":"LAMOST-HVS3",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"J032117.08+190736.2",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"boundprobability":[
@@ -52,7 +59,7 @@
 			{
 				"value":"+19:07:36.2",
 				"u_value":"degrees",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"+19:07:36.2207",
@@ -86,20 +93,20 @@
 		"discoverdate":[
 			{
 				"value":"2017",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Y. Huang, X.-W. Liu, H.-W. Zhang, B.-Q. Chen, M.-S. Xiang, C. Wang, H.-B. Yuan, Z.-J. Tian, Y.-B. Li, B. Wang",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.10782",
 				"derived":true,
-				"source":"4"
+				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -109,6 +116,34 @@
 				"e_value":"2.48725",
 				"u_value":"kpc",
 				"source":"5"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-15.2222",
+				"derived":true,
+				"source":"5"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"16.53",
+				"derived":true,
+				"source":"4,5"
+			}
+		],
+		"maxband":[
+			{
+				"value":"g",
+				"derived":true,
+				"source":"4,5"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2004/09/21",
+				"derived":true,
+				"source":"4,5"
 			}
 		],
 		"parallax":[
@@ -205,7 +240,7 @@
 			{
 				"value":"03:21:17.08",
 				"u_value":"hours",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"03:21:17.0755",
@@ -239,13 +274,13 @@
 		"spectraltype":[
 			{
 				"value":"B7",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"stellarclass":[
 			{
 				"value":"d",
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"velocity":[
@@ -253,7 +288,7 @@
 				"value":"361.38",
 				"e_value":"12.52",
 				"u_value":"km/s",
-				"source":"1"
+				"source":"2"
 			},
 			{
 				"value":"432.608",
@@ -281,30 +316,12 @@
 		"photometry":[
 			{
 				"time":"53269",
-				"band":"u",
-				"e_magnitude":"0.008688643",
-				"magnitude":"17.20555",
-				"telescope":"SDSS",
-				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":"53269",
 				"band":"g",
 				"e_magnitude":"0.003918246",
 				"magnitude":"16.52993",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":"53269",
-				"band":"r",
-				"e_magnitude":"0.004811048",
-				"magnitude":"16.78075",
-				"telescope":"SDSS",
-				"u_time":"MJD",
-				"source":"2"
+				"source":"4"
 			},
 			{
 				"time":"53269",
@@ -313,7 +330,25 @@
 				"magnitude":"16.96791",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"4"
+			},
+			{
+				"time":"53269",
+				"band":"r",
+				"e_magnitude":"0.004811048",
+				"magnitude":"16.78075",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"4"
+			},
+			{
+				"time":"53269",
+				"band":"u",
+				"e_magnitude":"0.008688643",
+				"magnitude":"17.20555",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"4"
 			},
 			{
 				"time":"53269",
@@ -322,7 +357,7 @@
 				"magnitude":"17.09728",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"4"
 			},
 			{
 				"time":"57023",

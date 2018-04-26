@@ -4,54 +4,62 @@
 		"name":"SDSSJ105717.3+462102.2",
 		"sources":[
 			{
-				"name":"2014ApJ...794..145S",
-				"bibcode":"2014ApJ...794..145S",
-				"reference":"Savcheva, West, & Bochanski (2014)",
+				"name":"2018arXiv180103555G",
+				"bibcode":"2018arXiv180103555G",
+				"reference":"Green et al. (2018)",
 				"alias":"1"
 			},
 			{
-				"bibcode":"2015ApJS..219...12A",
+				"name":"2016A&A...595A...2G",
+				"bibcode":"2016A&A...595A...2G",
+				"reference":"Gaia Collaboration et al. (2016)",
 				"alias":"2"
 			},
 			{
-				"bibcode":"2016A&A...595A...2G",
+				"name":"2015ApJS..219...12A",
+				"bibcode":"2015ApJS..219...12A",
+				"reference":"Alam et al. (2015)",
 				"alias":"3"
 			},
 			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
+				"name":"2014ApJ...794..145S",
+				"bibcode":"2014ApJ...794..145S",
+				"reference":"Savcheva, West, & Bochanski (2014)",
 				"alias":"4"
-			},
-			{
-				"bibcode":"2018arXiv180103555G",
-				"alias":"5"
 			},
 			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
+				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
+				"alias":"5"
+			},
+			{
+				"name":"SIMBAD astronomical database",
+				"bibcode":"2000A&AS..143....9W",
+				"reference":"Wenger et al. (2000)",
+				"secondary":true,
+				"url":"http://simbad.u-strasbg.fr/",
 				"alias":"6"
 			}
 		],
 		"alias":[
 			{
 				"value":"SDSSJ105717.3+462102.2",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"value":"SDSSJ105717.29+462102.3",
-				"source":"4"
+				"source":"6"
 			},
 			{
 				"value":"SDSSJ105717.28+462102.2",
-				"source":"4"
+				"source":"6"
 			},
 			{
 				"value":"SDSSJ105717.26+462102.1",
-				"source":"4"
+				"source":"6"
 			}
 		],
 		"boundprobability":[
@@ -60,40 +68,40 @@
 				"derived":true,
 				"e_lower_value":"0.001409624670499654",
 				"e_upper_value":"0.0014015376243923239",
-				"source":"6"
+				"source":"5"
 			}
 		],
 		"dec":[
 			{
 				"value":"+46:21:02.2",
 				"u_value":"degrees",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"value":"+46:20:55.4105",
 				"e_value":"1.6709",
 				"u_e_value":"mas",
 				"u_value":"degrees",
-				"source":"3"
+				"source":"2"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2014",
-				"source":"1"
+				"source":"4"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Antonia S. Savcheva, Andrew A. West, John J. Bochanski",
-				"source":"1"
+				"source":"4"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.0138681",
 				"derived":true,
-				"source":"5"
+				"source":"1"
 			}
 		],
 		"lumdist":[
@@ -101,7 +109,35 @@
 				"value":"0.199",
 				"e_value":"0.037",
 				"u_value":"kpc",
-				"source":"1"
+				"source":"4"
+			}
+		],
+		"maxabsmag":[
+			{
+				"value":"-3.614",
+				"derived":true,
+				"source":"4,5"
+			}
+		],
+		"maxappmag":[
+			{
+				"value":"17.88",
+				"derived":true,
+				"source":"3,5"
+			}
+		],
+		"maxband":[
+			{
+				"value":"z",
+				"derived":true,
+				"source":"3,5"
+			}
+		],
+		"maxdate":[
+			{
+				"value":"2002/12/13",
+				"derived":true,
+				"source":"3,5"
 			}
 		],
 		"propermotiondec":[
@@ -109,7 +145,7 @@
 				"value":"-527",
 				"e_value":"17",
 				"u_value":"mas/yr",
-				"source":"1"
+				"source":"4"
 			}
 		],
 		"propermotionra":[
@@ -117,40 +153,40 @@
 				"value":"75",
 				"e_value":"17",
 				"u_value":"mas/yr",
-				"source":"1"
+				"source":"4"
 			}
 		],
 		"ra":[
 			{
 				"value":"10:57:17.3",
 				"u_value":"hours",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"value":"10:57:17.2257",
 				"e_value":"0.7531",
 				"u_e_value":"mas",
 				"u_value":"hours",
-				"source":"3"
+				"source":"2"
 			}
 		],
 		"spectraltype":[
 			{
 				"value":"M7",
-				"source":"1"
+				"source":"4"
 			}
 		],
 		"stellarclass":[
 			{
 				"value":"sd",
-				"source":"1"
+				"source":"4"
 			}
 		],
 		"velocity":[
 			{
 				"value":"-296",
 				"u_value":"km/s",
-				"source":"1"
+				"source":"4"
 			},
 			{
 				"value":"550.737",
@@ -161,7 +197,7 @@
 					"escape"
 				],
 				"u_value":"km/s",
-				"source":"6"
+				"source":"5"
 			},
 			{
 				"value":"423.228",
@@ -172,19 +208,10 @@
 					"total"
 				],
 				"u_value":"km/s",
-				"source":"6"
+				"source":"5"
 			}
 		],
 		"photometry":[
-			{
-				"time":"52621",
-				"band":"u",
-				"e_magnitude":"0.6741041",
-				"magnitude":"25.57857",
-				"telescope":"SDSS",
-				"u_time":"MJD",
-				"source":"2"
-			},
 			{
 				"time":"52621",
 				"band":"g",
@@ -192,16 +219,7 @@
 				"magnitude":"21.98339",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"2"
-			},
-			{
-				"time":"52621",
-				"band":"r",
-				"e_magnitude":"0.0247338",
-				"magnitude":"19.94091",
-				"telescope":"SDSS",
-				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"52621",
@@ -210,7 +228,25 @@
 				"magnitude":"18.62076",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
+			},
+			{
+				"time":"52621",
+				"band":"r",
+				"e_magnitude":"0.0247338",
+				"magnitude":"19.94091",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
+			},
+			{
+				"time":"52621",
+				"band":"u",
+				"e_magnitude":"0.6741041",
+				"magnitude":"25.57857",
+				"telescope":"SDSS",
+				"u_time":"MJD",
+				"source":"3"
 			},
 			{
 				"time":"52621",
@@ -219,7 +255,7 @@
 				"magnitude":"17.87755",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"57023",
@@ -229,7 +265,7 @@
 				"magnitude":"19.3971",
 				"telescope":"Gaia",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57023",
@@ -238,7 +274,7 @@
 				"magnitude":"20.8205",
 				"telescope":"Gaia",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			},
 			{
 				"time":"57023",
@@ -247,7 +283,7 @@
 				"magnitude":"18.1768",
 				"telescope":"Gaia",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"2"
 			}
 		]
 	}
