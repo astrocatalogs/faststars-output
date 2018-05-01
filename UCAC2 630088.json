@@ -44,11 +44,11 @@
 				"source":"5"
 			},
 			{
-				"value":"GaiaDR2521281",
+				"value":"GaiaDR2 521281",
 				"source":"1"
 			},
 			{
-				"value":"GaiaDR25212817273334550016",
+				"value":"GaiaDR2 5212817273334550016",
 				"source":"1"
 			},
 			{
@@ -94,10 +94,10 @@
 		],
 		"boundprobability":[
 			{
-				"value":"0.377304",
+				"value":"0.377804",
 				"derived":true,
-				"e_lower_value":"0.001979987281000184",
-				"e_upper_value":"0.001982720868256793",
+				"e_lower_value":"0.0019805090843979523",
+				"e_upper_value":"0.0019832315323092264",
 				"source":"4"
 			}
 		],
@@ -158,16 +158,16 @@
 		],
 		"lumdist":[
 			{
-				"value":"3.87443",
+				"value":"3.86712",
 				"derived":true,
-				"e_value":"0.317155",
+				"e_value":"0.30775",
 				"u_value":"kpc",
 				"source":"4"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-17.8701",
+				"value":"-17.866",
 				"derived":true,
 				"source":"4"
 			}
@@ -326,9 +326,9 @@
 				"source":"2"
 			},
 			{
-				"value":"555.525",
+				"value":"555.73",
 				"derived":true,
-				"e_value":"21.3827",
+				"e_value":"21.3396",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -337,9 +337,9 @@
 				"source":"4"
 			},
 			{
-				"value":"578.828",
+				"value":"577.504",
 				"derived":true,
-				"e_value":"56.72",
+				"e_value":"55.1076",
 				"kind":[
 					"galactocentric",
 					"total"

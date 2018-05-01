@@ -1,7 +1,7 @@
 {
-	"GaiaDR2607762":{
+	"GaiaDR2 607762":{
 		"schema":"https://github.com/astrocatalogs/faststars/blob/4818341/SCHEMA.md",
-		"name":"GaiaDR2607762",
+		"name":"GaiaDR2 607762",
 		"sources":[
 			{
 				"name":"2018arXiv180410607M",
@@ -32,20 +32,20 @@
 		],
 		"alias":[
 			{
-				"value":"GaiaDR2607762",
+				"value":"GaiaDR2 607762",
 				"source":"1"
 			},
 			{
-				"value":"GaiaDR26077622510498751616",
+				"value":"GaiaDR2 6077622510498751616",
 				"source":"1"
 			}
 		],
 		"boundprobability":[
 			{
-				"value":"0.662695",
+				"value":"0.649995",
 				"derived":true,
-				"e_lower_value":"0.001934432416128229",
-				"e_upper_value":"0.001930807686220004",
+				"e_lower_value":"0.0019513822536307845",
+				"e_upper_value":"0.0019480404612014501",
 				"source":"4"
 			}
 		],
@@ -106,16 +106,16 @@
 		],
 		"lumdist":[
 			{
-				"value":"12.549",
+				"value":"12.6761",
 				"derived":true,
-				"e_value":"2.19681",
+				"e_value":"2.31498",
 				"u_value":"kpc",
 				"source":"4"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-18.26",
+				"value":"-18.2818",
 				"derived":true,
 				"source":"4"
 			}
@@ -274,9 +274,9 @@
 				"source":"2"
 			},
 			{
-				"value":"523.199",
+				"value":"522.936",
 				"derived":true,
-				"e_value":"24.7714",
+				"e_value":"24.854",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -285,9 +285,9 @@
 				"source":"4"
 			},
 			{
-				"value":"504.634",
+				"value":"506.916",
 				"derived":true,
-				"e_value":"41.6565",
+				"e_value":"44.4273",
 				"kind":[
 					"galactocentric",
 					"total"

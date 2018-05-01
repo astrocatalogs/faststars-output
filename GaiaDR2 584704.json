@@ -1,7 +1,7 @@
 {
-	"GaiaDR2584704":{
+	"GaiaDR2 584704":{
 		"schema":"https://github.com/astrocatalogs/faststars/blob/4818341/SCHEMA.md",
-		"name":"GaiaDR2584704",
+		"name":"GaiaDR2 584704",
 		"sources":[
 			{
 				"name":"2018arXiv180410607M",
@@ -32,11 +32,11 @@
 		],
 		"alias":[
 			{
-				"value":"GaiaDR2584704",
+				"value":"GaiaDR2 584704",
 				"source":"1"
 			},
 			{
-				"value":"GaiaDR25847044923481848192",
+				"value":"GaiaDR2 5847044923481848192",
 				"source":"1"
 			}
 		],
