@@ -85,14 +85,9 @@
 		],
 		"dec":[
 			{
-				"value":"+02:50:02.80000000",
-				"u_value":"degrees",
-				"source":"5,6"
-			},
-			{
 				"value":"+02:50:02.8",
 				"u_value":"degrees",
-				"source":"3"
+				"source":"3,5,6"
 			},
 			{
 				"value":"+02:50:02.8423",
@@ -248,14 +243,9 @@
 		],
 		"ra":[
 			{
-				"value":"11:02:24.37000000",
-				"u_value":"hours",
-				"source":"5,6"
-			},
-			{
 				"value":"11:02:24.37",
 				"u_value":"hours",
-				"source":"3"
+				"source":"3,5,6"
 			},
 			{
 				"value":"11:02:24.3751",

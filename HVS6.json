@@ -109,19 +109,14 @@
 		],
 		"dec":[
 			{
-				"value":"+09:34:39.47000000",
+				"value":"+09:34:39.47",
 				"u_value":"degrees",
 				"source":"5,6"
 			},
 			{
 				"value":"+09:34:39.5",
 				"u_value":"degrees",
-				"source":"8"
-			},
-			{
-				"value":"+09:34:39.50000000",
-				"u_value":"degrees",
-				"source":"7"
+				"source":"7,8"
 			},
 			{
 				"value":"+09:34:39.4955",
@@ -279,14 +274,9 @@
 		],
 		"ra":[
 			{
-				"value":"11:05:57.45000000",
-				"u_value":"hours",
-				"source":"5,6,7"
-			},
-			{
 				"value":"11:05:57.45",
 				"u_value":"hours",
-				"source":"8"
+				"source":"5,6,7,8"
 			},
 			{
 				"value":"11:05:57.4508",
