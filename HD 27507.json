@@ -99,7 +99,7 @@
 		],
 		"dec":[
 			{
-				"value":"-16:56:07.594",
+				"value":"-16:56:07.59400000",
 				"u_value":"degrees",
 				"source":"2"
 			},
@@ -140,7 +140,7 @@
 		],
 		"discoverer":[
 			{
-				"value":"T. Marchetti, E. M. Rossi, G. Kordopatis, A. G. A. Brown, A. Rimoldi, E. Starkenburg, K. Youakim, R. Ashley,",
+				"value":"T. Marchetti, E. M. Rossi, G. Kordopatis, A. G. A. Brown, A. Rimoldi, E. Starkenburg, K. Youakim, R. Ashley",
 				"source":"1"
 			}
 		],
@@ -281,7 +281,7 @@
 		],
 		"ra":[
 			{
-				"value":"04:19:54.6995",
+				"value":"04:19:54.69950000",
 				"u_value":"hours",
 				"source":"2"
 			},

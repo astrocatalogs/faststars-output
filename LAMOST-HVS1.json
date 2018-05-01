@@ -89,7 +89,12 @@
 			{
 				"value":"+09:16:21.8",
 				"u_value":"degrees",
-				"source":"2,5"
+				"source":"5"
+			},
+			{
+				"value":"+09:16:21.80000000",
+				"u_value":"degrees",
+				"source":"2"
 			},
 			{
 				"value":"+09:16:21.8785",
@@ -274,7 +279,7 @@
 				"source":"5"
 			},
 			{
-				"value":"09:12:06.53",
+				"value":"09:12:06.53000000",
 				"u_value":"hours",
 				"source":"2"
 			},
