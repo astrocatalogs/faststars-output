@@ -54,6 +54,10 @@
 				"source":"2"
 			},
 			{
+				"value":"Gaia DR2 598886395759265536",
+				"source":"1"
+			},
+			{
 				"value":"Cl* NGC 2682 FBC 2104",
 				"source":"6"
 			},
@@ -106,8 +110,9 @@
 						"value":"-0.1603"
 					}
 				],
+				"e_u_value":"mas",
 				"e_value":"0.0237",
-				"u_value":"mas",
+				"u_value":"dms",
 				"source":"1"
 			}
 		],
@@ -133,16 +138,16 @@
 		],
 		"lumdist":[
 			{
-				"value":"1.12861",
+				"value":"1.10002",
 				"derived":true,
-				"e_value":"0.0614398",
+				"e_value":"0.0579521",
 				"u_value":"kpc",
 				"source":"5"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-10.1424",
+				"value":"-10.0867",
 				"derived":true,
 				"source":"5"
 			}
@@ -170,7 +175,7 @@
 		],
 		"parallax":[
 			{
-				"value":"0.889",
+				"value":"0.918",
 				"correlations":[
 					{
 						"kind":"Pearson",
@@ -193,6 +198,7 @@
 						"value":"0.1309"
 					}
 				],
+				"e_u_value":"mas",
 				"e_value":"0.0445",
 				"u_value":"mas",
 				"source":"1"
@@ -223,6 +229,7 @@
 						"value":"-0.194"
 					}
 				],
+				"e_u_value":"mas/yr",
 				"e_value":"0.049",
 				"u_value":"mas/yr",
 				"source":"1"
@@ -253,6 +260,7 @@
 						"value":"0.4197"
 					}
 				],
+				"e_u_value":"mas/yr",
 				"e_value":"0.078",
 				"u_value":"mas/yr",
 				"source":"1"
@@ -288,8 +296,9 @@
 						"value":"0.0448"
 					}
 				],
+				"e_u_value":"mas",
 				"e_value":"0.039",
-				"u_value":"mas",
+				"u_value":"hms",
 				"source":"1"
 			}
 		],
@@ -319,9 +328,9 @@
 		],
 		"velocity":[
 			{
-				"value":"542.531",
+				"value":"542.762",
 				"derived":true,
-				"e_value":"20.6447",
+				"e_value":"20.6502",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -330,9 +339,9 @@
 				"source":"5"
 			},
 			{
-				"value":"245.002",
+				"value":"244.127",
 				"derived":true,
-				"e_value":"8.15098",
+				"e_value":"8.14341",
 				"kind":[
 					"galactocentric",
 					"total"

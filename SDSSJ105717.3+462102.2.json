@@ -50,6 +50,10 @@
 				"source":"4"
 			},
 			{
+				"value":"Gaia DR2 783056719419949312",
+				"source":"2"
+			},
+			{
 				"value":"SDSSJ105717.29+462102.3",
 				"source":"6"
 			},
@@ -79,6 +83,13 @@
 			},
 			{
 				"value":"+46:20:55.4105",
+				"correlations":[
+					{
+						"kind":"Pearson",
+						"quantity":"ra",
+						"value":"-0.8691"
+					}
+				],
 				"e_value":"1.6709",
 				"u_e_value":"mas",
 				"u_value":"degrees",
@@ -164,6 +175,13 @@
 			},
 			{
 				"value":"10:57:17.2257",
+				"correlations":[
+					{
+						"kind":"Pearson",
+						"quantity":"dec",
+						"value":"-0.8691"
+					}
+				],
 				"e_value":"0.7531",
 				"u_e_value":"mas",
 				"u_value":"hours",

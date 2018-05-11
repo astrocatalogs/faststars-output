@@ -76,6 +76,10 @@
 				"source":"3,7,9"
 			},
 			{
+				"value":"Gaia DR2 3804790100211231104",
+				"source":"2"
+			},
+			{
 				"value":"HV 13",
 				"source":"9"
 			},
@@ -132,8 +136,9 @@
 						"value":"0.0681"
 					}
 				],
+				"e_u_value":"mas",
 				"e_value":"0.7133",
-				"u_value":"mas",
+				"u_value":"dms",
 				"source":"2"
 			}
 		],
@@ -198,7 +203,7 @@
 		],
 		"parallax":[
 			{
-				"value":"-0.1322",
+				"value":"-0.1032",
 				"correlations":[
 					{
 						"kind":"Pearson",
@@ -221,6 +226,7 @@
 						"value":"0.0196"
 					}
 				],
+				"e_u_value":"mas",
 				"e_value":"1.2538",
 				"u_value":"mas",
 				"source":"2"
@@ -277,8 +283,9 @@
 						"value":"0.3817"
 					}
 				],
+				"e_u_value":"mas",
 				"e_value":"1.0993",
-				"u_value":"mas",
+				"u_value":"hms",
 				"source":"2"
 			}
 		],
@@ -310,7 +317,7 @@
 			{
 				"value":"343.126",
 				"derived":true,
-				"e_value":"21.206",
+				"e_value":"21.2061",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -319,9 +326,9 @@
 				"source":"8"
 			},
 			{
-				"value":"728.926",
+				"value":"728.924",
 				"derived":true,
-				"e_value":"173.741",
+				"e_value":"173.739",
 				"kind":[
 					"galactocentric",
 					"total"

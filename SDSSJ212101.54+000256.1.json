@@ -52,14 +52,18 @@
 			{
 				"value":"SDSSJ212101.55+000256.18",
 				"source":"2"
+			},
+			{
+				"value":"Gaia DR2 2689414619886246784",
+				"source":"1"
 			}
 		],
 		"boundprobability":[
 			{
-				"value":"0.945885",
+				"value":"0.951785",
 				"derived":true,
-				"e_lower_value":"0.000929751150186231",
-				"e_upper_value":"0.000919817533582501",
+				"e_lower_value":"0.0008806642275976939",
+				"e_upper_value":"0.0008705992358611914",
 				"upperlimit":true,
 				"source":"5"
 			}
@@ -94,8 +98,9 @@
 						"value":"0.2161"
 					}
 				],
+				"e_u_value":"mas",
 				"e_value":"0.1409",
-				"u_value":"mas",
+				"u_value":"dms",
 				"source":"1"
 			}
 		],
@@ -121,16 +126,16 @@
 		],
 		"lumdist":[
 			{
-				"value":"5.81197",
+				"value":"5.52684",
 				"derived":true,
-				"e_value":"2.42155",
+				"e_value":"2.42656",
 				"u_value":"kpc",
 				"source":"5"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-11.3302",
+				"value":"-11.221",
 				"derived":true,
 				"source":"5"
 			}
@@ -158,7 +163,7 @@
 		],
 		"parallax":[
 			{
-				"value":"0.0785",
+				"value":"0.1075",
 				"correlations":[
 					{
 						"kind":"Pearson",
@@ -181,6 +186,7 @@
 						"value":"0.0114"
 					}
 				],
+				"e_u_value":"mas",
 				"e_value":"0.1717",
 				"u_value":"mas",
 				"source":"1"
@@ -211,6 +217,7 @@
 						"value":"0.0146"
 					}
 				],
+				"e_u_value":"mas/yr",
 				"e_value":"0.268",
 				"u_value":"mas/yr",
 				"source":"1"
@@ -241,6 +248,7 @@
 						"value":"-0.1256"
 					}
 				],
+				"e_u_value":"mas/yr",
 				"e_value":"0.3",
 				"u_value":"mas/yr",
 				"source":"1"
@@ -276,8 +284,9 @@
 						"value":"-0.1567"
 					}
 				],
+				"e_u_value":"mas",
 				"e_value":"0.1444",
-				"u_value":"mas",
+				"u_value":"hms",
 				"source":"1"
 			}
 		],
@@ -307,9 +316,9 @@
 		],
 		"velocity":[
 			{
-				"value":"571.575",
+				"value":"571.402",
 				"derived":true,
-				"e_value":"22.6229",
+				"e_value":"22.5768",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -318,9 +327,9 @@
 				"source":"5"
 			},
 			{
-				"value":"273.193",
+				"value":"256.704",
 				"derived":true,
-				"e_value":"147.968",
+				"e_value":"146.706",
 				"kind":[
 					"galactocentric",
 					"total"
