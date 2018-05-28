@@ -58,8 +58,8 @@
 			{
 				"value":"0.999977",
 				"derived":true,
-				"e_lower_value":"2.2519578492752323e-05",
-				"e_upper_value":"1.2987903849959181e-05",
+				"e_lower_value":"2.25195784928e-05",
+				"e_upper_value":"1.298790385e-05",
 				"upperlimit":true,
 				"source":"5"
 			}
@@ -141,9 +141,9 @@
 				"source":"2"
 			},
 			{
-				"value":"545.904",
+				"value":"523.638",
 				"derived":true,
-				"e_value":"20.7876",
+				"e_value":"42.8105",
 				"kind":[
 					"galactocentric",
 					"escape"

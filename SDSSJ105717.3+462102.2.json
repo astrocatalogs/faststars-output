@@ -68,10 +68,10 @@
 		],
 		"boundprobability":[
 			{
-				"value":"0.862988",
+				"value":"0.81229",
 				"derived":true,
-				"e_lower_value":"0.001409624670499654",
-				"e_upper_value":"0.0014015376243923239",
+				"e_lower_value":"0.00159963590401",
+				"e_upper_value":"0.00159267833421",
 				"source":"5"
 			}
 		],
@@ -207,9 +207,9 @@
 				"source":"4"
 			},
 			{
-				"value":"550.737",
+				"value":"528.275",
 				"derived":true,
-				"e_value":"20.995",
+				"e_value":"43.7295",
 				"kind":[
 					"galactocentric",
 					"escape"

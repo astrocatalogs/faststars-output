@@ -4,33 +4,39 @@
 		"name":"SDSSJ112359.47+751807.7",
 		"sources":[
 			{
+				"name":"2018arXiv180410121B",
+				"bibcode":"2018arXiv180410121B",
+				"reference":"Bailer-Jones et al. (2018)",
+				"alias":"1"
+			},
+			{
 				"name":"2018arXiv180103555G",
 				"bibcode":"2018arXiv180103555G",
 				"reference":"Green et al. (2018)",
-				"alias":"1"
+				"alias":"2"
 			},
 			{
 				"name":"2016A&A...595A...2G",
 				"bibcode":"2016A&A...595A...2G",
 				"reference":"Gaia Collaboration et al. (2016)",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"2015ApJS..219...12A",
 				"bibcode":"2015ApJS..219...12A",
 				"reference":"Alam et al. (2015)",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"2012ApJ...751...55B",
 				"bibcode":"2012ApJ...751...55B",
 				"reference":"Brown, Geller, & Kenyon (2012)",
-				"alias":"4"
+				"alias":"5"
 			},
 			{
 				"name":"Warren R. Brown (private comm.)",
 				"secondary":true,
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"The Open Supernova Catalog",
@@ -38,7 +44,7 @@
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -46,41 +52,41 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"7"
+				"alias":"8"
 			}
 		],
 		"alias":[
 			{
 				"value":"SDSSJ112359.47+751807.7",
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"value":"SDSSJ112359.47+751807.73",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"value":"Gaia DR2 1079174751471025536",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"value":"SDSSJ112359.46+751807.9",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"boundprobability":[
 			{
-				"value":"0.542199",
+				"value":"0.5036",
 				"derived":true,
-				"e_lower_value":"0.0020370258731349233",
-				"e_upper_value":"0.0020360857145529376",
-				"source":"6"
+				"e_lower_value":"0.0020438351114",
+				"e_upper_value":"0.00204375490833",
+				"source":"7"
 			}
 		],
 		"dec":[
 			{
 				"value":"+75:18:07.73",
 				"u_value":"degrees",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"value":"+75:18:07.7369",
@@ -109,26 +115,33 @@
 				"e_u_value":"mas",
 				"e_value":"0.3294",
 				"u_value":"dms",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2012",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"Warren R. Brown, Margaret J. Geller, Scott J. Kenyon",
-				"source":"4"
+				"source":"5"
+			}
+		],
+		"distancepriorlengthscale":[
+			{
+				"value":"0.405688",
+				"u_value":"kpc",
+				"source":"1"
 			}
 		],
 		"ebv":[
 			{
 				"value":"0.05623",
 				"derived":true,
-				"source":"1"
+				"source":"2"
 			}
 		],
 		"lumdist":[
@@ -137,35 +150,35 @@
 				"derived":true,
 				"e_value":"28.9827",
 				"u_value":"kpc",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"maxabsmag":[
 			{
 				"value":"-14.4714",
 				"derived":true,
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"19.32",
 				"derived":true,
-				"source":"3,6"
+				"source":"4,7"
 			}
 		],
 		"maxband":[
 			{
 				"value":"g",
 				"derived":true,
-				"source":"3,6"
+				"source":"4,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2006/04/30",
 				"derived":true,
-				"source":"3,6"
+				"source":"4,7"
 			}
 		],
 		"parallax":[
@@ -196,7 +209,7 @@
 				"e_u_value":"mas",
 				"e_value":"0.3445",
 				"u_value":"mas",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"propermotiondec":[
@@ -227,7 +240,7 @@
 				"e_u_value":"mas/yr",
 				"e_value":"0.685",
 				"u_value":"mas/yr",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"propermotionra":[
@@ -258,14 +271,14 @@
 				"e_u_value":"mas/yr",
 				"e_value":"0.668",
 				"u_value":"mas/yr",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"ra":[
 			{
 				"value":"11:23:59.47",
 				"u_value":"hours",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"value":"11:23:59.4709",
@@ -294,31 +307,31 @@
 				"e_u_value":"mas",
 				"e_value":"0.3217",
 				"u_value":"hms",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"spectraltype":[
 			{
 				"value":"B9",
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"velocity":[
 			{
 				"value":"140",
 				"u_value":"km/s",
-				"source":"4"
+				"source":"5"
 			},
 			{
-				"value":"383.738",
+				"value":"373.45",
 				"derived":true,
-				"e_value":"45.667",
+				"e_value":"47.8064",
 				"kind":[
 					"galactocentric",
 					"escape"
 				],
 				"u_value":"km/s",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"value":"398.898",
@@ -329,7 +342,7 @@
 					"total"
 				],
 				"u_value":"km/s",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"photometry":[
@@ -340,7 +353,7 @@
 				"magnitude":"19.31925",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"53855",
@@ -349,7 +362,7 @@
 				"magnitude":"19.711",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"53855",
@@ -358,7 +371,7 @@
 				"magnitude":"19.49643",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"53855",
@@ -367,7 +380,7 @@
 				"magnitude":"20.13888",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"53855",
@@ -376,7 +389,7 @@
 				"magnitude":"20.17392",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"time":"57023",
@@ -386,7 +399,7 @@
 				"magnitude":"19.4587",
 				"telescope":"Gaia",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"57023",
@@ -395,7 +408,7 @@
 				"magnitude":"19.3894",
 				"telescope":"Gaia",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"57023",
@@ -404,7 +417,7 @@
 				"magnitude":"19.6046",
 				"telescope":"Gaia",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			}
 		]
 	}
