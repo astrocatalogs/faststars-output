@@ -216,6 +216,12 @@
 		],
 		"propermotiondec":[
 			{
+				"value":"11.48",
+				"e_value":"3.11",
+				"u_value":"mas/yr",
+				"source":"5"
+			},
+			{
 				"value":"8.572",
 				"correlations":[
 					{
@@ -246,6 +252,12 @@
 			}
 		],
 		"propermotionra":[
+			{
+				"value":"-9.72",
+				"e_value":"3.11",
+				"u_value":"mas/yr",
+				"source":"5"
+			},
 			{
 				"value":"-4.258",
 				"correlations":[

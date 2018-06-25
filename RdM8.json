@@ -243,6 +243,18 @@
 		],
 		"propermotiondec":[
 			{
+				"value":"-447.4",
+				"e_value":"6.4",
+				"u_value":"mas/yr",
+				"source":"4"
+			},
+			{
+				"value":"-447",
+				"e_value":"3",
+				"u_value":"mas/yr",
+				"source":"6"
+			},
+			{
 				"value":"-447.514",
 				"correlations":[
 					{
@@ -273,6 +285,18 @@
 			}
 		],
 		"propermotionra":[
+			{
+				"value":"-516.9",
+				"e_value":"6.4",
+				"u_value":"mas/yr",
+				"source":"4"
+			},
+			{
+				"value":"-517",
+				"e_value":"3",
+				"u_value":"mas/yr",
+				"source":"6"
+			},
 			{
 				"value":"-517.141",
 				"correlations":[

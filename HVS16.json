@@ -97,10 +97,10 @@
 		],
 		"boundprobability":[
 			{
-				"value":"0.139112",
+				"value":"0.0301157",
 				"derived":true,
-				"e_lower_value":"0.00141056757685",
-				"e_upper_value":"0.00141860784087",
+				"e_lower_value":"0.000693327218326",
+				"e_upper_value":"0.0007037950712",
 				"source":"9"
 			}
 		],
@@ -177,19 +177,18 @@
 		],
 		"lumdist":[
 			{
-				"value":"70.9216",
+				"value":"70.1629",
 				"derived":true,
-				"e_lower_value":"12.0994353656",
-				"e_upper_value":"12.0704241954",
+				"e_value":"11.7722",
 				"u_value":"kpc",
-				"source":"5"
+				"source":"9"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-14.8268",
+				"value":"-14.8037",
 				"derived":true,
-				"source":"5,9"
+				"source":"9"
 			}
 		],
 		"maxappmag":[
@@ -372,9 +371,9 @@
 				"source":"7"
 			},
 			{
-				"value":"368.523",
+				"value":"358.944",
 				"derived":true,
-				"e_value":"49.7855",
+				"e_value":"36.6883",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -383,9 +382,9 @@
 				"source":"9"
 			},
 			{
-				"value":"773.215",
+				"value":"791.661",
 				"derived":true,
-				"e_value":"469.367",
+				"e_value":"344.041",
 				"kind":[
 					"galactocentric",
 					"total"

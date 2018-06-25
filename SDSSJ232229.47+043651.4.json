@@ -79,10 +79,10 @@
 		],
 		"boundprobability":[
 			{
-				"value":"0.751392",
+				"value":"0.81029",
 				"derived":true,
-				"e_lower_value":"0.00176952268072",
-				"e_upper_value":"0.00176392185173",
+				"e_lower_value":"0.00160611770481",
+				"e_upper_value":"0.00159920469098",
 				"source":"8"
 			}
 		],
@@ -338,9 +338,9 @@
 				"source":"5"
 			},
 			{
-				"value":"421.964",
+				"value":"413.989",
 				"derived":true,
-				"e_value":"47.3268",
+				"e_value":"37.1627",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -349,9 +349,9 @@
 				"source":"8"
 			},
 			{
-				"value":"366.765",
+				"value":"354.629",
 				"derived":true,
-				"e_value":"100.822",
+				"e_value":"58.6869",
 				"kind":[
 					"galactocentric",
 					"total"

@@ -34,12 +34,18 @@
 				"alias":"5"
 			},
 			{
+				"name":"1970pmsw.bookQ....L",
+				"bibcode":"1970pmsw.bookQ....L",
+				"reference":"Luyten (1970)",
+				"alias":"6"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"6"
+				"alias":"7"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -47,7 +53,7 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"7"
+				"alias":"8"
 			}
 		],
 		"alias":[
@@ -57,7 +63,7 @@
 			},
 			{
 				"value":"LP 40-365",
-				"source":"4,7"
+				"source":"4,8"
 			},
 			{
 				"value":"Gaia DR2 1711956376295435520",
@@ -65,19 +71,19 @@
 			},
 			{
 				"value":"GD 492",
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"value":"LSPM J1406+7418",
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"value":"2MASS J14063545+7418579",
-				"source":"7"
+				"source":"8"
 			},
 			{
 				"value":"USNO-B1.0 1643-00083247",
-				"source":"7"
+				"source":"8"
 			}
 		],
 		"boundprobability":[
@@ -86,7 +92,7 @@
 				"derived":true,
 				"e_lower_value":"3.81326730994e-05",
 				"e_upper_value":"4.89741621038e-05",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"dec":[
@@ -155,39 +161,39 @@
 		],
 		"lumdist":[
 			{
-				"value":"0.618526",
+				"value":"0.618542",
 				"derived":true,
 				"e_value":"0.0125866",
 				"u_value":"kpc",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-8.53664",
+				"value":"-8.53669",
 				"derived":true,
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"15.42",
 				"derived":true,
-				"source":"5,6"
+				"source":"5,7"
 			}
 		],
 		"maxband":[
 			{
 				"value":"GRP",
 				"derived":true,
-				"source":"5,6"
+				"source":"5,7"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2015/01/01",
 				"derived":true,
-				"source":"5,6"
+				"source":"5,7"
 			}
 		],
 		"parallax":[
@@ -223,6 +229,12 @@
 		],
 		"propermotiondec":[
 			{
+				"value":"148",
+				"e_value":"7",
+				"u_value":"mas/yr",
+				"source":"6"
+			},
+			{
 				"value":"148.621",
 				"correlations":[
 					{
@@ -253,6 +265,12 @@
 			}
 		],
 		"propermotionra":[
+			{
+				"value":"-56",
+				"e_value":"7",
+				"u_value":"mas/yr",
+				"source":"6"
+			},
 			{
 				"value":"-49.542",
 				"correlations":[
@@ -341,24 +359,24 @@
 			{
 				"value":"528.13",
 				"derived":true,
-				"e_value":"43.9419",
+				"e_value":"43.9418",
 				"kind":[
 					"galactocentric",
 					"escape"
 				],
 				"u_value":"km/s",
-				"source":"6"
+				"source":"7"
 			},
 			{
-				"value":"845.037",
+				"value":"845.044",
 				"derived":true,
-				"e_value":"8.99789",
+				"e_value":"8.99791",
 				"kind":[
 					"galactocentric",
 					"total"
 				],
 				"u_value":"km/s",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"photometry":[

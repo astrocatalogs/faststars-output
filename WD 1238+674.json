@@ -28,12 +28,18 @@
 				"alias":"4"
 			},
 			{
+				"name":"2003AJ....125..984M",
+				"bibcode":"2003AJ....125..984M",
+				"reference":"Monet et al. (2003)",
+				"alias":"5"
+			},
+			{
 				"name":"The Open Supernova Catalog",
 				"bibcode":"2017ApJ...835...64G",
 				"reference":"Guillochon et al. (2017)",
 				"secondary":true,
 				"url":"https://sne.space",
-				"alias":"5"
+				"alias":"6"
 			},
 			{
 				"name":"SIMBAD astronomical database",
@@ -41,13 +47,13 @@
 				"reference":"Wenger et al. (2000)",
 				"secondary":true,
 				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"6"
+				"alias":"7"
 			}
 		],
 		"alias":[
 			{
 				"value":"WD 1238+674",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"value":"SDSSJ124043.01+671034.68",
@@ -59,19 +65,19 @@
 			},
 			{
 				"value":"LSPM J1240+6710",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"value":"SDSSJ124043.01+671034.6",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"value":"SDSSJ124043.43+671035.9",
-				"source":"6"
+				"source":"7"
 			},
 			{
 				"value":"USNO-B1.0 1571-00160326",
-				"source":"6"
+				"source":"7"
 			}
 		],
 		"boundprobability":[
@@ -81,7 +87,7 @@
 				"e_lower_value":"2.25195784928e-05",
 				"e_upper_value":"1.298790385e-05",
 				"upperlimit":true,
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"dec":[
@@ -162,7 +168,7 @@
 				"derived":true,
 				"e_value":"0.025539",
 				"u_value":"kpc",
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"mass":[
@@ -177,28 +183,28 @@
 			{
 				"value":"-4.91058",
 				"derived":true,
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"maxappmag":[
 			{
 				"value":"18.2",
 				"derived":true,
-				"source":"4,5"
+				"source":"4,6"
 			}
 		],
 		"maxband":[
 			{
 				"value":"GBP",
 				"derived":true,
-				"source":"4,5"
+				"source":"4,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2015/01/01",
 				"derived":true,
-				"source":"4,5"
+				"source":"4,6"
 			}
 		],
 		"parallax":[
@@ -234,6 +240,12 @@
 		],
 		"propermotiondec":[
 			{
+				"value":"-90",
+				"e_value":"2",
+				"u_value":"mas/yr",
+				"source":"5"
+			},
+			{
 				"value":"-95.776",
 				"correlations":[
 					{
@@ -264,6 +276,12 @@
 			}
 		],
 		"propermotionra":[
+			{
+				"value":"-180",
+				"e_value":"4",
+				"u_value":"mas/yr",
+				"source":"5"
+			},
 			{
 				"value":"-184.343",
 				"correlations":[
@@ -357,7 +375,7 @@
 					"escape"
 				],
 				"u_value":"km/s",
-				"source":"5"
+				"source":"6"
 			},
 			{
 				"value":"227.478",
@@ -369,7 +387,7 @@
 				],
 				"lowerlimit":true,
 				"u_value":"km/s",
-				"source":"5"
+				"source":"6"
 			}
 		],
 		"photometry":[
