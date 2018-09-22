@@ -10,27 +10,27 @@
 				"alias":"1"
 			},
 			{
+				"name":"2018arXiv180103555G",
+				"bibcode":"2018arXiv180103555G",
+				"reference":"Green et al. (2018)",
+				"alias":"2"
+			},
+			{
 				"name":"2016A&A...595A...2G",
 				"bibcode":"2016A&A...595A...2G",
 				"reference":"Gaia Collaboration et al. (2016)",
-				"alias":"2"
+				"alias":"3"
 			},
 			{
 				"name":"2015AJ....150...77V",
 				"bibcode":"2015AJ....150...77V",
 				"reference":"Vickers, Smith, & Grebel (2015)",
-				"alias":"3"
+				"alias":"4"
 			},
 			{
 				"name":"2015ApJS..219...12A",
 				"bibcode":"2015ApJS..219...12A",
 				"reference":"Alam et al. (2015)",
-				"alias":"4"
-			},
-			{
-				"name":"1998ApJ...500..525S",
-				"bibcode":"1998ApJ...500..525S",
-				"reference":"Schlegel, Finkbeiner, & Davis (1998)",
 				"alias":"5"
 			},
 			{
@@ -57,11 +57,11 @@
 			},
 			{
 				"value":"SDSSJ044830.91-002830.10",
-				"source":"3,4"
+				"source":"4,5"
 			},
 			{
 				"value":"Gaia DR2 3229708032414136320",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"value":"SDSSJ044830.91-002830.0",
@@ -70,10 +70,10 @@
 		],
 		"boundprobability":[
 			{
-				"value":"0.999483",
+				"value":"0.983784",
 				"derived":true,
-				"e_lower_value":"9.80348232464e-05",
-				"e_upper_value":"8.6968378354e-05",
+				"e_lower_value":"0.000521618216074",
+				"e_upper_value":"0.000510841569604",
 				"source":"6"
 			}
 		],
@@ -81,7 +81,7 @@
 			{
 				"value":"-00:28:30.1",
 				"u_value":"degrees",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"value":"-00:28:30.0739",
@@ -110,19 +110,19 @@
 				"e_u_value":"mas",
 				"e_value":"0.3621",
 				"u_value":"dms",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"discoverdate":[
 			{
 				"value":"2015",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"discoverer":[
 			{
 				"value":"John J.Vickers, Martin C. Smith, Eva K. Grebel",
-				"source":"3"
+				"source":"4"
 			}
 		],
 		"distancepriorlengthscale":[
@@ -134,24 +134,23 @@
 		],
 		"ebv":[
 			{
-				"value":"0.0564552",
+				"value":"0.04341",
 				"derived":true,
-				"upperlimit":true,
-				"source":"5"
+				"source":"2"
 			}
 		],
 		"lumdist":[
 			{
-				"value":"1.84566",
+				"value":"8.15547",
 				"derived":true,
-				"e_value":"0.718676",
+				"e_value":"4.01529",
 				"u_value":"kpc",
 				"source":"6"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-7.38031",
+				"value":"-10.6052",
 				"derived":true,
 				"source":"6"
 			}
@@ -160,21 +159,21 @@
 			{
 				"value":"18.95",
 				"derived":true,
-				"source":"2,6"
+				"source":"3,6"
 			}
 		],
 		"maxband":[
 			{
 				"value":"GRP",
 				"derived":true,
-				"source":"2,6"
+				"source":"3,6"
 			}
 		],
 		"maxdate":[
 			{
 				"value":"2015/01/01",
 				"derived":true,
-				"source":"2,6"
+				"source":"3,6"
 			}
 		],
 		"parallax":[
@@ -205,7 +204,7 @@
 				"e_u_value":"mas",
 				"e_value":"0.6349",
 				"u_value":"mas",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"propermotiondec":[
@@ -236,7 +235,7 @@
 				"e_u_value":"mas/yr",
 				"e_value":"0.838",
 				"u_value":"mas/yr",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"propermotionra":[
@@ -267,14 +266,14 @@
 				"e_u_value":"mas/yr",
 				"e_value":"1.239",
 				"u_value":"mas/yr",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"ra":[
 			{
 				"value":"04:48:30.91",
 				"u_value":"hours",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"value":"04:48:30.9144",
@@ -303,42 +302,42 @@
 				"e_u_value":"mas",
 				"e_value":"0.5296",
 				"u_value":"hms",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"redshift":[
 			{
 				"value":"0.000177462",
 				"e_value":"2.48382e-05",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"spectraltype":[
 			{
 				"value":"F",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"value":"G",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"value":"K",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"value":"M",
-				"source":"3"
+				"source":"4"
 			},
 			{
 				"value":"F8",
-				"source":"4"
+				"source":"5"
 			}
 		],
 		"stellarclass":[
 			{
 				"value":"d",
-				"source":"3,4"
+				"source":"4,5"
 			}
 		],
 		"velocity":[
@@ -346,12 +345,12 @@
 				"value":"53.202",
 				"e_value":"7.4463",
 				"u_value":"km/s",
-				"source":"4"
+				"source":"5"
 			},
 			{
-				"value":"512.324",
+				"value":"472.093",
 				"derived":true,
-				"e_value":"41.1789",
+				"e_value":"40.6197",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -360,9 +359,9 @@
 				"source":"6"
 			},
 			{
-				"value":"245.916",
+				"value":"278.871",
 				"derived":true,
-				"e_value":"15.4069",
+				"e_value":"57.3793",
 				"kind":[
 					"galactocentric",
 					"total"
@@ -379,7 +378,7 @@
 				"magnitude":"19.84399",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"53270",
@@ -388,7 +387,7 @@
 				"magnitude":"19.31387",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"53270",
@@ -397,7 +396,7 @@
 				"magnitude":"19.47022",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"53270",
@@ -406,7 +405,7 @@
 				"magnitude":"20.96557",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"53270",
@@ -415,7 +414,7 @@
 				"magnitude":"19.33436",
 				"telescope":"SDSS",
 				"u_time":"MJD",
-				"source":"4"
+				"source":"5"
 			},
 			{
 				"time":"57023",
@@ -425,7 +424,7 @@
 				"magnitude":"19.4867",
 				"telescope":"Gaia",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"57023",
@@ -434,7 +433,7 @@
 				"magnitude":"19.8043",
 				"telescope":"Gaia",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			},
 			{
 				"time":"57023",
@@ -443,7 +442,7 @@
 				"magnitude":"18.9531",
 				"telescope":"Gaia",
 				"u_time":"MJD",
-				"source":"2"
+				"source":"3"
 			}
 		],
 		"spectra":[
@@ -15817,7 +15816,7 @@
 						"3.26994"
 					]
 				],
-				"source":"4"
+				"source":"5"
 			}
 		]
 	}

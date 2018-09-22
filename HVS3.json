@@ -182,16 +182,16 @@
 		],
 		"lumdist":[
 			{
-				"value":"60.9712",
+				"value":"62.1517",
 				"derived":true,
-				"e_value":"9.35263",
+				"e_value":"7.37271",
 				"u_value":"kpc",
 				"source":"9"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-17.7309",
+				"value":"-17.7723",
 				"derived":true,
 				"source":"9"
 			}
@@ -390,9 +390,9 @@
 				"source":"4,6"
 			},
 			{
-				"value":"365.34",
+				"value":"363.78",
 				"derived":true,
-				"e_value":"36.1146",
+				"e_value":"35.6089",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -401,9 +401,9 @@
 				"source":"9"
 			},
 			{
-				"value":"815.808",
+				"value":"824.27",
 				"derived":true,
-				"e_value":"80.3301",
+				"e_value":"64.9568",
 				"kind":[
 					"galactocentric",
 					"total"
