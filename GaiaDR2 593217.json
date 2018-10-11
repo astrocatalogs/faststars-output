@@ -4,8 +4,8 @@
 		"name":"GaiaDR2 593217",
 		"sources":[
 			{
-				"name":"2018arXiv180410607M",
-				"bibcode":"2018arXiv180410607M",
+				"name":"2018MNRAS.tmp.2466M",
+				"bibcode":"2018MNRAS.tmp.2466M",
 				"reference":"Marchetti, Rossi, & Brown (2018)",
 				"alias":"1"
 			},
@@ -67,7 +67,7 @@
 		],
 		"dec":[
 			{
-				"value":"-54:26:25.6287",
+				"value":"-54:26:25.62",
 				"u_value":"degrees",
 				"source":"1"
 			},
@@ -260,7 +260,7 @@
 		],
 		"ra":[
 			{
-				"value":"16:16:28.3439",
+				"value":"16:16:28.344",
 				"u_value":"hours",
 				"source":"1"
 			},
