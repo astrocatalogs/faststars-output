@@ -34,14 +34,6 @@
 				"secondary":true,
 				"url":"https://sne.space",
 				"alias":"5"
-			},
-			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"reference":"Wenger et al. (2000)",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"6"
 			}
 		],
 		"alias":[
@@ -56,98 +48,6 @@
 			{
 				"value":"Gaia DR1 366274",
 				"source":"1"
-			},
-			{
-				"value":"HIP 66673",
-				"source":"6"
-			},
-			{
-				"value":"GaiaDR2 3662741860852094208",
-				"source":"6"
-			},
-			{
-				"value":"GaiaDR1 3662741856556426496",
-				"source":"6"
-			},
-			{
-				"value":"GEN# +9.80064012",
-				"source":"6"
-			},
-			{
-				"value":"GEN# +7.01050815",
-				"source":"6"
-			},
-			{
-				"value":"G 64-12",
-				"source":"6"
-			},
-			{
-				"value":"GSC 04967-00579",
-				"source":"6"
-			},
-			{
-				"value":"HE 1337-0012",
-				"source":"6"
-			},
-			{
-				"value":"HE 1337+0012",
-				"source":"6"
-			},
-			{
-				"value":"HIC 66673",
-				"source":"6"
-			},
-			{
-				"value":"LTT 13980",
-				"source":"6"
-			},
-			{
-				"value":"2MASS J13400249-0002188",
-				"source":"6"
-			},
-			{
-				"value":"MGC 49165",
-				"source":"6"
-			},
-			{
-				"value":"NLTT 34822",
-				"source":"6"
-			},
-			{
-				"value":"PLX 3120.01",
-				"source":"6"
-			},
-			{
-				"value":"SA 105-815",
-				"source":"6"
-			},
-			{
-				"value":"TYC 4967-579-1",
-				"source":"6"
-			},
-			{
-				"value":"UBV M 49188",
-				"source":"6"
-			},
-			{
-				"value":"UCAC2 31692619",
-				"source":"6"
-			},
-			{
-				"value":"USNO 848",
-				"source":"6"
-			},
-			{
-				"value":"uvby98 980064012",
-				"source":"6"
-			},
-			{
-				"value":"Wolf 1492",
-				"source":"6"
-			},
-			{
-				"value":"SPG 209",
-				"source":"6"
 			}
 		],
 		"boundprobability":[
@@ -185,7 +85,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.0541",
+				"e_value":"0.0655106",
 				"u_value":"dms",
 				"source":"3"
 			}
@@ -211,16 +111,16 @@
 		],
 		"lumdist":[
 			{
-				"value":"0.264291",
+				"value":"0.264323",
 				"derived":true,
-				"e_value":"0.00569546",
+				"e_value":"0.00730842",
 				"u_value":"kpc",
 				"source":"5"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-11.1603",
+				"value":"-11.1606",
 				"derived":true,
 				"source":"5"
 			}
@@ -272,7 +172,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.0856",
+				"e_value":"0.103654",
 				"u_value":"mas",
 				"source":"3"
 			}
@@ -303,7 +203,7 @@
 					}
 				],
 				"e_u_value":"mas/yr",
-				"e_value":"0.134",
+				"e_value":"0.162263",
 				"u_value":"mas/yr",
 				"source":"3"
 			}
@@ -334,7 +234,7 @@
 					}
 				],
 				"e_u_value":"mas/yr",
-				"e_value":"0.129",
+				"e_value":"0.156208",
 				"u_value":"mas/yr",
 				"source":"3"
 			}
@@ -365,7 +265,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.0596",
+				"e_value":"0.0721706",
 				"u_value":"hms",
 				"source":"3"
 			}
@@ -378,9 +278,9 @@
 				"source":"1"
 			},
 			{
-				"value":"531.548",
+				"value":"531.549",
 				"derived":true,
-				"e_value":"43.5215",
+				"e_value":"43.5216",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -389,9 +289,9 @@
 				"source":"5"
 			},
 			{
-				"value":"424.624",
+				"value":"424.862",
 				"derived":true,
-				"e_value":"6.35027",
+				"e_value":"6.31406",
 				"kind":[
 					"galactocentric",
 					"total"

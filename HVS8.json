@@ -77,14 +77,6 @@
 				"secondary":true,
 				"url":"https://sne.space",
 				"alias":"12"
-			},
-			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"reference":"Wenger et al. (2000)",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"13"
 			}
 		],
 		"alias":[
@@ -94,11 +86,11 @@
 			},
 			{
 				"value":"SDSSJ094214.03+200322.0",
-				"source":"5,13"
+				"source":"5"
 			},
 			{
 				"value":"SDSSJ094214.04+200322.1",
-				"source":"1,9,13"
+				"source":"1,9"
 			},
 			{
 				"value":"SDSSJ094214.03+200322.07",
@@ -107,30 +99,14 @@
 			{
 				"value":"Gaia DR2 633599760258827776",
 				"source":"4"
-			},
-			{
-				"value":"HV 8",
-				"source":"13"
-			},
-			{
-				"value":"GSC2 N2311311399",
-				"source":"13"
-			},
-			{
-				"value":"USNO-B1.0 1100-00174712",
-				"source":"13"
-			},
-			{
-				"value":"J094214.04+200322.1",
-				"source":"13"
 			}
 		],
 		"boundprobability":[
 			{
-				"value":"0.0148162",
+				"value":"0.0259158",
 				"derived":true,
-				"e_lower_value":"0.000488384213082",
-				"e_upper_value":"0.000499191869188",
+				"e_lower_value":"0.000644136040495",
+				"e_upper_value":"0.000654697297775",
 				"source":"12"
 			}
 		],
@@ -170,7 +146,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.2174",
+				"e_value":"0.239963",
 				"u_value":"dms",
 				"source":"4"
 			}
@@ -212,16 +188,16 @@
 				"source":"1"
 			},
 			{
-				"value":"37.2155",
+				"value":"36.386",
 				"derived":true,
-				"e_value":"4.42752",
+				"e_value":"4.19327",
 				"u_value":"kpc",
 				"source":"12"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-14.8146",
+				"value":"-14.7658",
 				"derived":true,
 				"source":"12"
 			}
@@ -273,7 +249,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.2353",
+				"e_value":"0.259721",
 				"u_value":"mas",
 				"source":"4"
 			}
@@ -310,7 +286,7 @@
 					}
 				],
 				"e_u_value":"mas/yr",
-				"e_value":"0.369",
+				"e_value":"0.407297",
 				"u_value":"mas/yr",
 				"source":"4"
 			}
@@ -347,7 +323,7 @@
 					}
 				],
 				"e_u_value":"mas/yr",
-				"e_value":"0.365",
+				"e_value":"0.402882",
 				"u_value":"mas/yr",
 				"source":"4"
 			}
@@ -388,7 +364,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.2182",
+				"e_value":"0.240846",
 				"u_value":"hms",
 				"source":"4"
 			}
@@ -432,9 +408,9 @@
 				"source":"7"
 			},
 			{
-				"value":"391.383",
+				"value":"392.711",
 				"derived":true,
-				"e_value":"33.3289",
+				"e_value":"33.2424",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -443,9 +419,9 @@
 				"source":"12"
 			},
 			{
-				"value":"506.163",
+				"value":"499.637",
 				"derived":true,
-				"e_value":"42.0858",
+				"e_value":"47.6882",
 				"kind":[
 					"galactocentric",
 					"total"

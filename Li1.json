@@ -47,14 +47,6 @@
 				"secondary":true,
 				"url":"https://sne.space",
 				"alias":"7"
-			},
-			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"reference":"Wenger et al. (2000)",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"8"
 			}
 		],
 		"alias":[
@@ -69,10 +61,6 @@
 			{
 				"value":"Gaia DR2 1420858783056445568",
 				"source":"3"
-			},
-			{
-				"value":"LAMOST J172524.12+565709.6",
-				"source":"8"
 			}
 		],
 		"boundprobability":[
@@ -115,7 +103,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.0167",
+				"e_value":"0.0309946",
 				"u_value":"dms",
 				"source":"3"
 			}
@@ -148,16 +136,16 @@
 		],
 		"lumdist":[
 			{
-				"value":"0.410638",
+				"value":"0.412017",
 				"derived":true,
-				"e_value":"0.00303588",
+				"e_value":"0.00553582",
 				"u_value":"kpc",
 				"source":"7"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-10.6772",
+				"value":"-10.6845",
 				"derived":true,
 				"source":"7"
 			}
@@ -209,7 +197,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.0175",
+				"e_value":"0.0324793",
 				"u_value":"mas",
 				"source":"3"
 			}
@@ -246,7 +234,7 @@
 					}
 				],
 				"e_u_value":"mas/yr",
-				"e_value":"0.037",
+				"e_value":"0.0686706",
 				"u_value":"mas/yr",
 				"source":"3"
 			}
@@ -283,7 +271,7 @@
 					}
 				],
 				"e_u_value":"mas/yr",
-				"e_value":"0.033",
+				"e_value":"0.0612468",
 				"u_value":"mas/yr",
 				"source":"3"
 			}
@@ -319,7 +307,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.0159",
+				"e_value":"0.0295098",
 				"u_value":"hms",
 				"source":"3"
 			}
@@ -371,7 +359,7 @@
 			{
 				"value":"529.573",
 				"derived":true,
-				"e_value":"43.3645",
+				"e_value":"43.3646",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -380,9 +368,9 @@
 				"source":"7"
 			},
 			{
-				"value":"249.46",
+				"value":"250.604",
 				"derived":true,
-				"e_value":"8.0485",
+				"e_value":"8.37923",
 				"kind":[
 					"galactocentric",
 					"total"

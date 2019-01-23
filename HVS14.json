@@ -46,14 +46,6 @@
 				"secondary":true,
 				"url":"https://sne.space",
 				"alias":"7"
-			},
-			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"reference":"Wenger et al. (2000)",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"8"
 			}
 		],
 		"alias":[
@@ -67,19 +59,11 @@
 			},
 			{
 				"value":"SDSSJ104401.75+061139.0",
-				"source":"6,8"
+				"source":"6"
 			},
 			{
 				"value":"Gaia DR2 3859275333773935488",
 				"source":"2"
-			},
-			{
-				"value":"HV 14",
-				"source":"8"
-			},
-			{
-				"value":"SDSSJ104401.74+061139.0",
-				"source":"8"
 			}
 		],
 		"boundprobability":[
@@ -112,7 +96,7 @@
 						"value":"-0.9176"
 					}
 				],
-				"e_value":"2.4776",
+				"e_value":"2.68026",
 				"u_e_value":"mas",
 				"u_value":"degrees",
 				"source":"2"
@@ -194,7 +178,7 @@
 						"value":"-0.9176"
 					}
 				],
-				"e_value":"2.3694",
+				"e_value":"2.56321",
 				"u_e_value":"mas",
 				"u_value":"hours",
 				"source":"2"

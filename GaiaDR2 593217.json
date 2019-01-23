@@ -58,10 +58,11 @@
 		],
 		"boundprobability":[
 			{
-				"value":"0.0036166",
+				"value":"0.999977",
 				"derived":true,
-				"e_lower_value":"0.000239700657527",
-				"e_upper_value":"0.000250751328216",
+				"e_lower_value":"2.25195784928e-05",
+				"e_upper_value":"1.298790385e-05",
+				"upperlimit":true,
 				"source":"6"
 			}
 		],
@@ -96,7 +97,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.012",
+				"e_value":"0.0231898",
 				"u_value":"dms",
 				"source":"4"
 			}
@@ -130,16 +131,16 @@
 		],
 		"lumdist":[
 			{
-				"value":"2.08066",
+				"value":"2.20417",
 				"derived":true,
-				"e_value":"0.122526",
+				"e_value":"0.317158",
 				"u_value":"kpc",
 				"source":"6"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-13.3705",
+				"value":"-13.4957",
 				"derived":true,
 				"source":"6"
 			}
@@ -191,7 +192,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.029",
+				"e_value":"0.0560419",
 				"u_value":"mas",
 				"source":"4"
 			}
@@ -222,7 +223,7 @@
 					}
 				],
 				"e_u_value":"mas/yr",
-				"e_value":"0.034",
+				"e_value":"0.0657043",
 				"u_value":"mas/yr",
 				"source":"4"
 			}
@@ -253,7 +254,7 @@
 					}
 				],
 				"e_u_value":"mas/yr",
-				"e_value":"0.043",
+				"e_value":"0.0830967",
 				"u_value":"mas/yr",
 				"source":"4"
 			}
@@ -289,22 +290,16 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.025",
+				"e_value":"0.048312",
 				"u_value":"hms",
 				"source":"4"
 			}
 		],
 		"velocity":[
 			{
-				"value":"-614.29",
-				"e_value":"2.49",
-				"u_value":"km/s",
-				"source":"4"
-			},
-			{
-				"value":"553.962",
+				"value":"555.53",
 				"derived":true,
-				"e_value":"49.4939",
+				"e_value":"50.0247",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -313,13 +308,14 @@
 				"source":"6"
 			},
 			{
-				"value":"749.55",
+				"value":"166.688",
 				"derived":true,
-				"e_value":"6.78041",
+				"e_value":"11.0528",
 				"kind":[
 					"galactocentric",
 					"total"
 				],
+				"lowerlimit":true,
 				"u_value":"km/s",
 				"source":"6"
 			}

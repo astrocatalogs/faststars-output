@@ -34,14 +34,6 @@
 				"secondary":true,
 				"url":"https://sne.space",
 				"alias":"5"
-			},
-			{
-				"name":"SIMBAD astronomical database",
-				"bibcode":"2000A&AS..143....9W",
-				"reference":"Wenger et al. (2000)",
-				"secondary":true,
-				"url":"http://simbad.u-strasbg.fr/",
-				"alias":"6"
 			}
 		],
 		"alias":[
@@ -56,22 +48,6 @@
 			{
 				"value":"Gaia DR1 396221",
 				"source":"1"
-			},
-			{
-				"value":"TYC 1992-1581-1",
-				"source":"6"
-			},
-			{
-				"value":"GaiaDR2 3962215976052842752",
-				"source":"6"
-			},
-			{
-				"value":"GaiaDR1 3962215976052842752",
-				"source":"6"
-			},
-			{
-				"value":"2MASS J12421017+2710175",
-				"source":"6"
 			}
 		],
 		"boundprobability":[
@@ -109,7 +85,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.0226",
+				"e_value":"0.0274919",
 				"u_value":"dms",
 				"source":"3"
 			}
@@ -135,16 +111,16 @@
 		],
 		"lumdist":[
 			{
-				"value":"0.35742",
+				"value":"0.356818",
 				"derived":true,
-				"e_value":"0.00524005",
+				"e_value":"0.00632802",
 				"u_value":"kpc",
 				"source":"5"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-11.8158",
+				"value":"-11.8122",
 				"derived":true,
 				"source":"5"
 			}
@@ -196,7 +172,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.0413",
+				"e_value":"0.0502396",
 				"u_value":"mas",
 				"source":"3"
 			}
@@ -227,7 +203,7 @@
 					}
 				],
 				"e_u_value":"mas/yr",
-				"e_value":"0.04",
+				"e_value":"0.0486582",
 				"u_value":"mas/yr",
 				"source":"3"
 			}
@@ -258,7 +234,7 @@
 					}
 				],
 				"e_u_value":"mas/yr",
-				"e_value":"0.06",
+				"e_value":"0.0729873",
 				"u_value":"mas/yr",
 				"source":"3"
 			}
@@ -289,7 +265,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.031",
+				"e_value":"0.0377101",
 				"u_value":"hms",
 				"source":"3"
 			}
@@ -308,9 +284,9 @@
 				"source":"3"
 			},
 			{
-				"value":"529.763",
+				"value":"529.764",
 				"derived":true,
-				"e_value":"43.3436",
+				"e_value":"43.3437",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -319,9 +295,9 @@
 				"source":"5"
 			},
 			{
-				"value":"249.154",
+				"value":"249.126",
 				"derived":true,
-				"e_value":"8.76319",
+				"e_value":"8.76897",
 				"kind":[
 					"galactocentric",
 					"total"

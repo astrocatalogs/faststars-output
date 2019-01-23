@@ -58,10 +58,10 @@
 		],
 		"boundprobability":[
 			{
-				"value":"0.315306",
+				"value":"0.326306",
 				"derived":true,
-				"e_lower_value":"0.00189723741215",
-				"e_upper_value":"0.0019013522698",
+				"e_lower_value":"0.00191462251166",
+				"e_upper_value":"0.00191849230552",
 				"source":"6"
 			}
 		],
@@ -96,7 +96,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.0669",
+				"e_value":"0.0809925",
 				"u_value":"dms",
 				"source":"4"
 			}
@@ -129,18 +129,17 @@
 		],
 		"lumdist":[
 			{
-				"value":"22.4315",
-				"derived":true,
-				"e_value":"2.48725",
+				"value":"22.32",
+				"e_value":"2.5",
 				"u_value":"kpc",
-				"source":"6"
+				"source":"3"
 			}
 		],
 		"maxabsmag":[
 			{
-				"value":"-15.2188",
+				"value":"-15.208",
 				"derived":true,
-				"source":"6"
+				"source":"3,6"
 			}
 		],
 		"maxappmag":[
@@ -190,7 +189,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.1016",
+				"e_value":"0.123002",
 				"u_value":"mas",
 				"source":"4"
 			}
@@ -221,7 +220,7 @@
 					}
 				],
 				"e_u_value":"mas/yr",
-				"e_value":"0.155",
+				"e_value":"0.187651",
 				"u_value":"mas/yr",
 				"source":"4"
 			}
@@ -252,7 +251,7 @@
 					}
 				],
 				"e_u_value":"mas/yr",
-				"e_value":"0.199",
+				"e_value":"0.24092",
 				"u_value":"mas/yr",
 				"source":"4"
 			}
@@ -288,7 +287,7 @@
 					}
 				],
 				"e_u_value":"mas",
-				"e_value":"0.097",
+				"e_value":"0.117433",
 				"u_value":"hms",
 				"source":"4"
 			}
@@ -313,9 +312,9 @@
 				"source":"3"
 			},
 			{
-				"value":"419.057",
+				"value":"419.705",
 				"derived":true,
-				"e_value":"33.076",
+				"e_value":"33.1251",
 				"kind":[
 					"galactocentric",
 					"escape"
@@ -324,9 +323,9 @@
 				"source":"6"
 			},
 			{
-				"value":"432.82",
+				"value":"432.501",
 				"derived":true,
-				"e_value":"13.9687",
+				"e_value":"14.0142",
 				"kind":[
 					"galactocentric",
 					"total"
